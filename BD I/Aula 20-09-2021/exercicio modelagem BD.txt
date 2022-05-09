@@ -1,0 +1,33 @@
+Crie uma base de dados para a fabricante de computadores LG-Brasil.
+•	O nome da data base deverá se chamar DB_LgBrasil.
+A empresa LG-Brasil fabrica vários modelos de computadores, sendo que cada modelo possui:
+•	Código do modelo;
+•	Nome do modelo;
+•	Data de fabricação;
+•	Voltagem (127v, 220v,.....).
+Cada modelo é composto por diversos componentes (peças), sendo que um modelo pode ter vários componentes do mesmo tipo; (exemplo o computador XXyy possui dez parafusos (componentes) do tipo YYaa).
+Os componentes possuem:
+•	Código do componente;
+•	Descrição dos componentes (nome);
+•	Valor unitário;
+Os componentes que compõem os computadores possuem fornecedores, sendo que um fornecedor fornece vários componentes diferentes à empresa, e um mesmo tipo de componente pode ser adquirido de fornecedores diferentes.
+Os fornecedores de componentes possuem:
+•	CNPJ do fornecedor;
+•	Nome da empresa do fornecedora;
+•	Endereço da empresa fornecedora;
+•	Telefone da empresa fornecedora.
+Quando a empresa realiza a compra de um tipo de componente, de seus fornecedores, armazena-se a data da compra e a quantidade adquirida. 
+
+1)	Crie o banco de dados e sua integridade relacional (relação entre as entidades participantes)
+
+2)	Leia com atenção e crie todos os atributos de relacionamento necessário.
+
+3)	Para terminar gere o diagrama do banco de dados criado
+
+4)	Normalize as relações se necessário
+
+5)	Na sequencia crie o dicionário de dados para o banco de dados
+
+6)	Gerar um script na linguagem SQL contendo a criação do banco de dados, bem como seus relacionamentos.
+
+7)	Por fim, gerar um script SQL para inserir 10 registros em cada tabela (INSERT), realize 5 UPDATES e 5 DELETES dentro dos registros criados.

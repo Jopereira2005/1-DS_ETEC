@@ -1,0 +1,44 @@
+create database Exemplo; -- Criando banco de dados
+use Exemplo; -- Acessando o banco de dados
+create table Funcionário ( -- Criando tabela
+matricula_fun int (6) primary Key auto_increment,
+nome_fun varchar (50) not null,
+nacion_fun varchar (25), 
+sexo_fun varchar (10),
+RG_fun char (9) not null unique,
+CPF_fun char (11) not null unique,
+data_de_nasc_fun date not null,
+Est_Civil_fun varchar (50),
+ende_fun varchar (50),
+tel_fun varchar (11),
+Data_Admissão_fun date not null,
+cod_car_fun int (11) not null
+);
+
+create table Cargo ( 
+cod_car int (11) primary key auto_increment,
+CargoNome_car varchar (50) not null
+);
+
+create table Dependente ( 
+cod_dep int (11) primary key auto_increment,
+NomeDependente_dep varchar (50) not null,
+data_de_nasc_dep date not null,
+matricula_fun_dep int (6) not null
+);
+
+alter table Funcionário
+add constraint fk_Funcionário_possui_cargo
+foreign key (cod_car_fun)
+references Cargo(cod_car);
+
+alter table Dependente
+add constraint fk_Dependente_possui_Matricula
+foreign key (matricula_fun_dep)
+references Funcionário(matricula_fun);
+
+show tables;
+describe Funcionário;
+describe Cargo;
+describe Dependente;
+

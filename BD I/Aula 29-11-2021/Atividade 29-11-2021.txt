@@ -1,0 +1,57 @@
+create database Atividade;
+use Atividade;
+
+create table Funcionario ( 
+Idfunc int (11) primary Key auto_increment,
+Nomefunc varchar (50) not null,
+Idcargo int (11) not null,
+Iddepto int (11) not null,
+Dtnascfunc date not null,
+Sexofunc char (1) not null
+);
+
+create table Cargo (
+Idcargo int (11) primary key auto_increment,
+Nomecargo varchar (50) not null,
+Salariocargo decimal (9,2) not null
+);
+
+create table Departamento (
+Iddepto int (11) primary key auto_increment,
+Nomedepto varchar (50) not null,
+Ramaldepto char (4) not null
+);
+
+
+alter table Funcionario
+add constraint 
+fk_Funcionario_tem_cargo
+foreign key (Idcargo)
+references Cargo(Idcargo);
+
+alter table Funcionario
+add constraint
+fk_Funcionario_tem_Departamento
+foreign key (Iddepto)
+references Departamento(Iddepto);
+
+
+
+insert into Cargo (Idcargo, Nomecargo, Salariocargo) values (0, "Gerente", 10000.99);
+
+
+insert into Departamento (Iddepto, Nomedepto, Ramaldepto) values (0, "Depeartamento de Financias", "9823");
+
+
+insert into Funcionario (Idfunc, Nomefunc, Idcargo, Iddepto, Dtnascfunc, Sexofunc) values (0, "Claudio Barbosa", 1, 1, 19440902, "M");
+
+select * from Cargo;
+select * from Departamento;
+select * from Funcionario;
+
+update Departamento
+set Ramaldepto = "9999"
+where Iddepto = 1;
+
+delete from Funcionario
+where Idfunc = 1;
