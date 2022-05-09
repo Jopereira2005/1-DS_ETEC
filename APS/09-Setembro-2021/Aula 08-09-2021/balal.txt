@@ -1,0 +1,25 @@
+Agência de Shows de Música
+
+Desenvolver um sistema que organize shows pelo mundo todo. O sistema 
+deverá ser capaz de vender ingressos, agendar shows, contratar bandas/artistas e etc.
+
+Indentificar 5 classes e em cada classe identificar 5 atributos e 3 métodos.
+
+--------------------------------------------------------------------------------------------------------------------------
+
+Nome: Nome_Classe
+----Atributos----
+
+----Métodos---
+
+---------------------------------------------------------------------------------------------------------------------------
+
+Banda:
+
+---Atributos---
+Instumentos
+Artistas
+Posições_de_cada_artista
+Acessor_da_banda
+Lider
+------------------

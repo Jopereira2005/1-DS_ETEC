@@ -1,0 +1,5 @@
+3 atores - mínimo 6 casos de uso (fora os extend e iclude)
+
+Hospital:
+
+Atores:

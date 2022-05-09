@@ -1,0 +1,6 @@
+Cliente
+	AdicionarItemCarrinho
+	FinalizarPedido(escolher forma de pagamento)
+	RemoverIteamCarrinho
+	DevolverItem(reembolsarCliente)
+	
