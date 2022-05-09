@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<meta charset="utf-8">
+		<title>Exercício 4</title>
+	</head>
+	<body>		
+		<script>
+            
+            a = [];
+			acima = [];
+			media = 0;
+			soma = 0;
+			maior = 0;
+			acimaNT = 0;
+
+            for(var i= 0; i < 10; i++){
+
+                nt = Number(prompt("Digite as notas"));
+				a[i] = nt;
+
+				soma = soma + nt
+				media = soma/10
+
+				if (maior<=nt){
+					maior = nt
+				}
+				
+			}
+
+			l = 0
+			
+			for(var j = 0 ; j <= 10 ; j++){
+				if (a[j] > media){
+					acima[l] = a[j]
+					l++
+				}
+			}
+
+
+			
+			document.write("Notas:"+ a + "<br>" + "Soma:" + soma + "<br>" + "Média:" + media + "<br>" + "Maior:" + maior + "<br>" + "Notas acima da Média:" + acima) 
+			
+
+		</script>
+	</body>
+</html>

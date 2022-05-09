@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<meta charset="utf-8">
+		<title>Exercício 8</title>
+	</head>
+	<body>		
+		<!--<script> Método pronto
+            
+            Ar = [];
+
+						document.write("Ordem crescente:" + "<br>")
+
+            for (i = 0 ;i < 3; i++){
+							v = Number(prompt("Insira os valores"));
+							Ar[i] = v
+						}
+						qt = 0;
+						Ar.sort();
+					for (var i = 0; i < 3; i++) {
+						qt ++  
+					document.write(qt + "º Valor " + Ar[i] + "<br>");
+					}
+
+		</script> -->
+		<script>
+	n1 = Number(prompt("Primeiro numero: "))
+    n2 = Number(prompt("Segundo numero : "))
+    n3 = Number(prompt("Terceiro numero: "))
+		rec = 0
+
+
+    	if (n1 >= n2) {    
+			rec = n1
+    		n1 = n2  
+    		n2 = rec	
+			}
+    	if(n2 >= n3) { 
+    		rec = n2
+			n2 = n3
+			n3 = rec     
+			}
+    	if(n1 >= n2) {
+        	rec = n1
+			n1 = n2
+			n2 = rec  
+		}
+		document.write("Ordem Crescente" + n1 + ' - ' + n2 + ' - ' + n3);
+
+		</script>
+	</body>
+</html>

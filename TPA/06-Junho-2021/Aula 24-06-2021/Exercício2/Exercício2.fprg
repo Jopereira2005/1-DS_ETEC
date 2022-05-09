@@ -1,0 +1,103 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="FAMILIA PEREIRA"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2021-06-24 11:44:31 "/>
+        <attribute name="created" value="RkFNSUxJQSBQRVJFSVJBO0RFU0tUT1AtUFM2QUVIVjsyMDIxLTA2LTI0OyIxMToyNzoxMyAiOzMzMzA="/>
+        <attribute name="edited" value="RkFNSUxJQSBQRVJFSVJBO0RFU0tUT1AtUFM2QUVIVjsyMDIxLTA2LTI0OyIxMTo0NDozMSAiOzE7MzQzNw=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="mes" type="Integer" array="False" size=""/>
+            <input variable="mes"/>
+            <if expression="mes == 1">
+                <then>
+                    <output expression="&quot;31&quot;" newline="True"/>
+                </then>
+                <else>
+                    <if expression="mes == 2">
+                        <then>
+                            <output expression="&quot;28&quot;" newline="True"/>
+                        </then>
+                        <else>
+                            <if expression="mes == 3">
+                                <then>
+                                    <output expression="&quot;31&quot;" newline="True"/>
+                                </then>
+                                <else>
+                                    <if expression="mes == 4">
+                                        <then>
+                                            <output expression="&quot;30&quot;" newline="True"/>
+                                        </then>
+                                        <else>
+                                            <if expression="mes == 5">
+                                                <then>
+                                                    <output expression="&quot;31&quot;" newline="True"/>
+                                                </then>
+                                                <else>
+                                                    <if expression="mes == 6">
+                                                        <then>
+                                                            <output expression="&quot;30&quot;" newline="True"/>
+                                                        </then>
+                                                        <else>
+                                                            <if expression="mes == 7">
+                                                                <then>
+                                                                    <output expression="&quot;31&quot;" newline="True"/>
+                                                                </then>
+                                                                <else>
+                                                                    <if expression="mes == 8">
+                                                                        <then>
+                                                                            <output expression="&quot;31&quot;" newline="True"/>
+                                                                        </then>
+                                                                        <else>
+                                                                            <if expression="mes == 9">
+                                                                                <then>
+                                                                                    <output expression="&quot;30&quot;" newline="True"/>
+                                                                                </then>
+                                                                                <else>
+                                                                                    <if expression="mes == 10">
+                                                                                        <then>
+                                                                                            <output expression="&quot;31&quot;" newline="True"/>
+                                                                                        </then>
+                                                                                        <else>
+                                                                                            <if expression="mes == 11">
+                                                                                                <then>
+                                                                                                    <output expression="&quot;30&quot;" newline="True"/>
+                                                                                                </then>
+                                                                                                <else>
+                                                                                                    <if expression="mes == 12">
+                                                                                                        <then>
+                                                                                                            <output expression="&quot;31&quot;" newline="True"/>
+                                                                                                        </then>
+                                                                                                        <else>
+                                                                                                            <output expression="&quot;Que m&#234;s &#233; esse ?&quot;" newline="True"/>
+                                                                                                        </else>
+                                                                                                    </if>
+                                                                                                </else>
+                                                                                            </if>
+                                                                                        </else>
+                                                                                    </if>
+                                                                                </else>
+                                                                            </if>
+                                                                        </else>
+                                                                    </if>
+                                                                </else>
+                                                            </if>
+                                                        </else>
+                                                    </if>
+                                                </else>
+                                            </if>
+                                        </else>
+                                    </if>
+                                </else>
+                            </if>
+                        </else>
+                    </if>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

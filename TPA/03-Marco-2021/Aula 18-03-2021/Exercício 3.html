@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+	<head>
+			<title>Desconto</title>
+			<meta charset="utf-8">
+	</head>
+	<body>
+			<script>
+
+				p1 = Number(prompt("Qual o valor do primeiro produto ?"));
+				p2 = Number(prompt("E o segundo ?"));
+
+				CalA = parseFloat(p1 + p2);
+				CalB = parseFloat(CalA * 30 );
+				CalC = parseFloat(CalB / 100);
+				VL = parseFloat(CalA - CalC);
+
+				document.write("<p><h1> Crie um programa que calcule o valor do produto com 30% de desconto </h1></p>"); 
+				
+				document.write("<p><h3>Para criar um programa desse é necessario cria 2 variáveis prompt, uma pega o produto 1 e a outra o produto 2, crie uma outra variável que execute a conta do produto 1 somado com o produto 2(conta A), logo depois em outra variável pegue a conta A e multiplique por 30(conta B), em mais uma variável você pega a conta B e divida por 100(conta C), agora na ultima variável pegue a conta A e subtraia pela conta C.</h3></p>");
+				
+				document.write("<h3>p1 = Number(prompt(Qual o valor do primeiro produto ?));</h3>");
+				document.write("<h3>p2 = Number(prompt(E o segundo ?));</h3><br><br>");
+
+				document.write("<h3>CalA = parseFloat(p1 + p2);</h3>");
+				document.write("<h3>CalB = parseFloat(CalA * 30 );</h3>");
+				document.write("<h3>CalC = parseFloat(CalB / 100);</h3>");
+				document.write("<h3>VL = parseFloat(CalA - CalC);</h3><br>");
+
+				document.write("<h2>A sua compra deu " + VL + "R$ " + "com desconto.</h2>");
+
+			</script>
+	</body>
+</html>

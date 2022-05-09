@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<meta charset="utf-8">
+		<title>Exercício 5</title>
+	</head>
+	<body>		
+		<script>
+
+			var qtd = Number(prompt("Quantos alunos? "))
+
+			for(var i = 0; i < qtd; i++){
+				var nota = parseInt(prompt("Nota do Aluno"))
+
+				media = media + nota;
+
+				if (nota > maior) {
+					maior = nota;
+
+				}
+				document.write("A média é: " + media/qtd + "<br")
+				document.write("A maior é: " + maior)
+			}
+
+		</script>
+	</body>
+</html>

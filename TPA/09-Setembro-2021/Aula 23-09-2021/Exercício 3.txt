@@ -1,0 +1,23 @@
+
+<!DOCTYPE html>
+        <html lang="pt-br">
+            <head>
+                <meta charset="utf-8">
+                <title>Exercício 3</title>
+            </head>
+            <body>
+
+                <script>
+                var j = 0    
+                for (var i = 0; i < 10 ; i++){ 
+                    while (j < 5)    { 
+                    
+                    
+				document.write(i)
+             }
+            }
+                    
+        
+                </script>
+            </body>
+        </html>

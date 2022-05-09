@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<meta charset="utf-8">
+		<title>Exercício 1</title>
+	</head>
+	<body>		
+		<script>
+
+            var q = parseInt(prompt("Quantos alunos tem na turma?"));
+            var s = 0
+            document.write("<center><h1><table border = 10><tr><th>" + "Aluno" + "</th><th>" + "Nota" + "</th></tr>");
+            for (var i = 0 ; i < q ; i++ ) {
+            var a = prompt("Qual o nome dos alunos ?");
+            var n = parseInt(prompt("Qual a nota desse Aluno ?"));
+
+            s = s + n
+
+            document.write("<tr><td>" + a + "</td><td>" + n + "</td></tr>");
+            };
+
+            m = (s / q);
+
+            document.write("<tr><td>" + "Média" + "</td><td>" + m + "</tr>");
+
+            document.write("<table></h1></center>");
+
+
+		</script>
+	</body>
+</html>

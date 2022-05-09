@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>IMC</title>
+		<meta charset="UTF-8">
+	</head>
+	<body>
+		
+		<script>
+			
+			peso = Number(prompt("Quanto você pesa ?"));			
+			altura = Number(prompt("Qual a sua altura ?"));
+ 			
+ 			calculoA = parseFloat(altura * altura);
+ 			imc = parseFloat(peso / calculoA);
+
+
+
+				document.write("<p><h1> Crie um programa que calcule o IMC </h1></p>"); 
+				
+				document.write("<p><h3>Para criar um programa desse é necessario cria 2 variáveis prompt, uma pega o peso e a outra a altura, crie uma outra variável que execute a conta da altura multiplicado pela propria variavél(conta A), logo depois em outra variável pegue a conta A e divida pelo peso(imc) está ai o resultado.</h3></p>");
+				
+				document.write("<h3>peso = prompt(Quanto você pesa ?);</h3>");
+				document.write("<h3>altura = prompt(Qual a sua altura ?);</h3><br><br>");
+				document.write("<h3>calculoA = parseFloat(altura * altura);</h3>");
+				document.write("<h3>imc = parseFloat(peso / calculoA);</h3><br>");
+
+				document.write("<h2>O Valor do seu imc é " + imc + "</h2>"); 
+		
+		</script>
+
+	</body>
+</html>

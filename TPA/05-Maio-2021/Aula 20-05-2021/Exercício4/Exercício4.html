@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<title>Exercício 4</title>
+		<meta charset="utf-8">
+	</head>
+	<body>
+		<h3>
+			1. Receba as horas<br>
+			2. Receba os minutos<br>
+			3. Receba os segundos<br>
+			4. Converta as horas<br>
+			5. Converta os minutos<br>
+			6. Some todos os resultados<br>
+			7. Exiba o resultado na tela<br>
+
+		</h3>		
+		<script>
+		 
+		horas = Number(prompt("Quantas horas ?"));
+		minutos = Number(prompt("Quantos minutos ?"));
+		segundos = Number(prompt("Quantos segundos ?"));
+
+
+		sH = Math.floor(horas * 3600);
+		sM = Math.floor(minutos * 60);
+
+
+		sF =  Math.floor(sH + sM + segundos)
+
+ 
+        document.write("<h3>A quantidade de horas minutos e segundos em segundos é :" + sF + " segundos" + "</h3>");
+
+
+                
+
+			
+		</script>
+	</body>
+</html>

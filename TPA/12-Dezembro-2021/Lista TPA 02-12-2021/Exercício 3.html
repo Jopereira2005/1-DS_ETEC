@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<meta charset="utf-8">
+		<title>Exercício 3</title>
+		<style>
+			*{
+            font-family: monospace;
+            font-size: 32px ;
+						text-align: center;
+        };
+		</style>
+	</head>
+	<body>		
+		<script>
+
+		var matrix = [];
+
+		for(var i = 0 ; i < 11 ; i++) {
+			matrix[i] = [];
+		}
+
+
+		for(var i = 0; i < 11 ; i++){
+			for(var j = 0; j < 11 ; j++){
+				matrix[i][j] = "."
+
+				if (i == j){
+				matrix[i][j] = "x"
+				}
+
+				if (i + j == 10) {
+					matrix[i][j] = "x"
+				}
+			}
+		}
+
+
+		for(var i = 0 ;i < 11 ; i++){
+			for(var j = 0 ; j < 11; j++) {
+			document.write(matrix[i][j])
+			}
+			document.write("<br>")
+		}
+		</script>
+	</body>
+</html>

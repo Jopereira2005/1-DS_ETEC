@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+	<head>
+			<title>Salário</title>
+			<meta charset="utf-8">
+	</head>
+	<body>
+			<script>
+
+				salário = Number(prompt("Qual seu salário ?"));
+				porcentagem = Number(prompt("Qual porcentagem você vai receber de aumento?"));
+
+				CalA = parseFloat(salário * porcentagem);
+				CalB = parseFloat(CalA / 100);
+				SalárioFinal = parseFloat(CalB + salário);
+
+				
+				document.write("<p><h1> Como crie um programa que recebe o salário atual e informa o novo salário </h1></p>"); 
+				
+				document.write("<p><h3>Para criar um programa desse é necessario cria 2 variáveis prompt, uma pega o salário e a outra a porcentagem, crie uma outra variável que execute a conta do salário dividido pela porcentagem(conta A), logo depois em outra variável pegue a conta A e divida por 100(conta B) , agora é só juntar o salário e a conta B que você tem o resultado.</h3></p>");
+				
+				document.write("<h3>salário = prompt(Qual seu salário ?);</h3>");
+				document.write("<h3>porcentagem = prompt(Qual porcentagem você vai receber de aumento?);<br><br>");
+				document.write("<h3>CalA = parseFloat(salário * porcentagem);</h3>");
+				document.write("<h3>CalB = parseFloat(CalA / 100);</h3><br>");
+				document.write("<h3>SalárioFinal = parseFloat(CalB + Number(salário));</h3><br><br>");
+
+				
+
+
+
+
+				document.write("<h2>Como resultado final seu salário ficou em R$" + SalárioFinal +"</h2>");
+			</script>
+	</body>
+</html>

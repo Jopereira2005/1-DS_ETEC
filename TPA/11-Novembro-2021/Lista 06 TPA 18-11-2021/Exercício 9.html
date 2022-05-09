@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<meta charset="utf-8">
+		<title>Exercício 9</title>
+	</head>
+	<body>		
+		<script>
+            
+			alert("Olá essa é a Mega sena insira 6 números e veja oq você tirou!")
+			mega = [];
+			megan = [];
+
+
+			for (var k = 0 ; k < 6; k++){
+				n = Number(prompt("Insira o número o resultado só para testar"))
+				while (n < 0 || n > 60) { 
+					n = Number(prompt("Valor invalido, digite de novo"));
+				}
+			mega[k] = n;
+			}
+
+			for (var i = 0 ; i < 6; i++){
+				ns = Number(prompt("Insira o número"))
+				while (ns < 0 || ns > 60) { 
+					ns = Number(prompt("Valor invalido, digite de novo"));
+				}
+			megan[i] = ns
+			}
+
+			qt = 0;
+
+			for (var j = 0; j < 6; j++) {
+				if (mega[j] == megan[j]) {
+				qt++
+				}
+			}
+
+			switch (qt) {
+            case 1: document.write("<h3>Você acertou 1 número</h3>");
+            break;
+            case 2: document.write("<h3>Você acertou 2 números</h3>");
+            break;
+            case 3: document.write("<h3>Você acertou 3 números</h3>");
+            break;
+            case 4: document.write("<h3>Você tirou uma quadra!</h3>");
+            break;
+            case 5: document.write("<h3>Você tirou uma quina!!</h3>");
+            break;
+			case 6: document.write("<h3>Você tirou uma Sena!!!</h3>");
+            break;
+			}
+
+            
+		</script>
+	</body>
+</html>

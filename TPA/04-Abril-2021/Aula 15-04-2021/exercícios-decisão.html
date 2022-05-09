@@ -1,0 +1,113 @@
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Correção de Exercícios</title>
+</head>
+<body>
+
+<!-- 1) Uma escola avalia seus alunos por meio de uma prova e um trabalho. Cada nota vale de 0 a 10 pontos. -->
+<!-- Para ser aprovado um aluno deve conseguir ao menos 7 pontos na média das notas. -->
+<!-- Crie um programa que recebe 2 notas de um aluno, calcula a média e informa se foi aprovado ou reprovado. -->
+
+	<!-- <script>	
+
+		prova    = Number(prompt("Informe a nota da prova"));
+		trabalho = Number(prompt("Informe a nota da trabalho"));
+
+		media = (prova + trabalho) / 2;
+	
+		document.write("Nota da prova: ", prova , "<br>");
+		document.write("Nota da trabalho: ", trabalho , "<br>");
+		document.write("Nota da média: ", media , "<br>");
+
+		if (media < 7)
+			document.write("Aluno Reprovado");
+		else
+			document.write("Aluno Aprovado");
+
+
+	</script>	
+	-->
+
+
+<!-- 2) Um parque de diversões estabelece uma regra para utilização de um certo brinquedo.  -->
+<!-- O usuário deve ter pelo menos 1,5 metro de altura para pode entrar no brinquedo. -->
+<!-- Crie um programa que recebe a altura do usuário e informa se pode ou não desfrutrar do brinquedo. -->
+
+	<!--
+	1. Receber a altura;
+	2.1 Se altura for menor que 1,5, então
+		Escrever na tela: "Entrada não permitida"
+	2.2 Senão, 
+		Escrever na tela: "Entrada permitida"
+	-->
+	<!--
+
+	<script>	
+		
+		altura = Number(prompt("Digite a altura"));
+
+		if(altura < 1.5)
+			document.write("Entrada não permitida");
+		else
+			document.write("Entrada permitida");
+
+	</script>	
+
+	-->
+
+<!-- 3) Escreva um programa que recebe um número inteiro. Em seguida informe se é par ou ímpar. -->
+
+<!-- 1º Perguntar o número ao usuário; -->
+<!-- 2º Dividir o número por 2; -->
+<!-- 3º -->
+<!-- 3º.1 Se o resto da divisão for 0, o número é par; -->
+<!-- 3º.2 Se o resto da divisão for 1, o número é ímpar. -->
+
+
+	<!-- <script>	 -->
+	
+		<!-- num = parseInt(prompt("Digite um número")); -->
+
+		<!-- resto = num % 2; -->
+
+		<!-- if(resto == 0) -->
+			<!-- document.write("É par"); -->
+		<!-- else -->
+			<!-- document.write("É ímpar"); -->
+
+
+	<!-- </script>	 -->
+
+
+
+<!-- 4) Um aplicativo será desenvolvido para ajudar as pessoas a economizar a água utilizada para o banho. Após cada banho, usuário irá informar o tempo gasto (em minutos) e a vazão do chuveiro (em litros por minuto). O aplicativo irá disparar um alerta caso o volume gasto ultrapasse 30 litros. -->
+<!-- Escreva o algoritmo que controla a exibição do alerta. -->
+
+
+	<!-- <ol> -->
+	<!-- <li>Para ver se seu gasto de água e ideal você precisará</li><br> -->
+	<!-- <li>Informar quanto tempo você passa no banho</li><br> -->
+	<!-- <li>Qual e a vazão do seu chuveiro</li><br> -->
+	<!-- <li>Multiplicar tempo*vazão e se o resultado</li><br> -->
+	<!-- <li>For igual ou menor que 30 exiba gasto ideal</li><br> -->
+	<!-- <li>Caso de mais do que 30 exiba gasto não ideal!!!!!!!!!!!!</li> -->
+	<!-- </ol> -->
+
+
+	<script>	
+
+		minutos = Number(prompt("Quanto tempo?"));		
+		vazao   = Number(prompt("Qual a vazão?"));		
+
+		litros = minutos * vazao;
+
+		if(litros > 30)
+			alert("Você demorou muito no banho. Pense na sua responsabilidade com o meio ambiente");
+
+
+	</script>
+
+
+</body>
+</html>

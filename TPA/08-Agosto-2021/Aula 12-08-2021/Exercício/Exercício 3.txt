@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<title>Exercício 3</title>
+		<meta charset="utf-8">
+	</head>
+	<body>
+			<h2>Descrição Narrativa</h2>
+            <h3>
+            1. Pegue um número inteiro<br>
+            2. Usando while e if, defina se um número é par ou impar.<br>
+            3. Com a Conjectura de Collatz se o número for par use a formula para os pares e se for impar para os impares até sobrar o numero 1<br>
+            4. Mostre na tela a progressão<br>
+			</h3>	
+			<hr><br>
+		<script>
+
+			var n = parseInt(prompt("Escolha um número:"));
+
+			while (n > 1) {
+			if (n % 2 == 0) {
+				Math.floor(n = n / 2)
+				document.write("<h2>" + n + "<br></h2>");
+			}
+			else {
+				Math.floor(n = n * 3 + 1)
+				document.write("<h2>" + n + "<br></h2>");
+			}
+			}
+        </script>
+	</body>
+</html>

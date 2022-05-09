@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<title>Exercício 4</title>
+		<meta charset="utf-8">
+	</head>
+	<body>
+		<h3>
+			1. Receba as quantidades da graviolas e do cupuaçu;<br>
+			2. Imponha as contas de acordo com os valores pedidos;<br>
+			3. Exiba o resultado na tela<br>
+
+		</h3>		
+		<script>
+		 
+		grav = Number(prompt("Quantas graviolas foram vendidas ?"));
+		cup = Number(prompt("E quantos cupuaçus foram vendidos ?"));
+
+		gravC = grav * 0,60
+		cupC = cup * 1,10
+		gravV = grav * 1,20
+		cupV = grav * 2,30
+
+		comp = gravC + cupC
+		vend = gravV + cupV
+
+		total = vend + comp
+
+		taxa = total / 100
+		taxaF = taxa * 10
+
+		document.write("<h4>a) O faturamento total ao final do dia.</h4>" + "<br>" + "R = R$" + total);
+		document.write("<h4>b) O lucro do dia.</h4>" + "<br>" + "R = R$ " + vend);
+		document.write("<h4>c) A valor destinado a programas de preservação das florestas</h4>" + "<br>" + "R = R$ " + taxaF);
+
+		</script>
+	</body>
+</html>

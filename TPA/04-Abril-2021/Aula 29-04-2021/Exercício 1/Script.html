@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Cofrinho</title>
+		<meta charset="utf-8">
+	</head>
+	<body>
+
+		<script>
+			
+			real1 = Number(prompt("Quantas moedas de 1 real você tem ?"));
+			centavos50 = Number(prompt("Quantas moedas de 50 centavos você tem ?"));
+			centavos25 = Number(prompt("Quantas moedas de 25 centavos você tem ?"));
+			centavos10 = Number(prompt("Quantas moedas de 10 centavos você tem ?"));
+			centavos05 = Number(prompt("Quantas moedas de 5 centavos você tem ?"));
+			centavos01 = Number(prompt("Quantas moedas de 1 centavos você tem ?"));
+
+
+			c1 = parseFloat(real1 * 1);
+			c2 = parseFloat(centavos50 * 0.50);
+			c3 = parseFloat(centavos25 * 0.25);
+			c4 = parseFloat(centavos10 * 0.10);
+			c5 = parseFloat(centavos05 * 0.05);
+			c6 = parseFloat(centavos01 * 0.01);
+			cF = parseFloat(c1 + c2 + c3 +c4 + c5 + c6);
+
+			alert("Voce tem " + cF + "R$ no total.");
+
+			document.write("1. Pegue a quantidade de cada moeda;<br>")
+			document.write("2. Divida elas pelo seu respectivo valor;<br>");
+			document.write("3. Some todos os resultados;<br>");
+			document.write("4. apresente o resultado da soma;<br>");
+
+
+		</script>
+
+
+	</body>
+</html>

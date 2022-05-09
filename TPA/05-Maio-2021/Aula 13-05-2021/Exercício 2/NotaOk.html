@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<title>Exercício 1</title>
+		<meta charset="utf-8">
+	</head>
+	<body>
+		<!--<h2>Operadores Lógicos</h2>
+			<p>Um operador lógico realiza uma operação lógica com valores lógicos</p>
+			<p>Em JavaScript há vários operadores lógicos, por exemplo o operador AND representado como &</p>
+			<p>O operador AND recebe dois valores lógico.</p>
+			<p>O operador AND resulta em True se ambos valoers forem True</p>		
+			<p>Se os dois valores forem True o resultado é True</p>
+			<p>Se pelo menos um valor or false o resultado é False</p> -->
+
+		<script>
+
+			nota = Number(prompt("Informe sua nota:"));
+			pres = Number(prompt("Informe sua presença:"));
+			
+			notaok = nota >=7 ;
+			presok = pres >=75 ;
+			aprovado = notaok & presok ;
+
+
+			document.write("Nota:" + nota + "<br>");
+			document.write("Presença:" + pres + "<br>");
+			document.write("Aprovado" + aprovado + "<br>" + "<br>")
+
+			document.write("Sua Nota está:" + notaok + "<br>");
+			document.write("Sua Presença está:" + presok + "<br>");
+
+			// Se a nota for OK e a presença for OK, então está APROVADO! 
+
+		
+			if (aprovado) 
+					document.write("<h2>Aprovado! </h3>");
+				else
+					document.write("<h2>Reprovado! </h3>");
+
+		</script>
+	</body>
+</html>

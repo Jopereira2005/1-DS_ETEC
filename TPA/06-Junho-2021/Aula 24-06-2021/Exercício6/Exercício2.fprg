@@ -1,0 +1,87 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="FAMILIA PEREIRA"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2021-06-24 05:44:41 "/>
+        <attribute name="created" value="RkFNSUxJQSBQRVJFSVJBO0RFU0tUT1AtUFM2QUVIVjsyMDIxLTA2LTI0OyIxMToyNzoxMyAiOzMzMzA="/>
+        <attribute name="edited" value="RkFNSUxJQSBQRVJFSVJBO0RFU0tUT1AtUFM2QUVIVjsyMDIxLTA2LTI0OyIwNTo0NDo0MSAiOzI7MzQ0Mg=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="num" type="Integer" array="False" size=""/>
+            <input variable="num"/>
+            <if expression="num == 1">
+                <then>
+                    <output expression="&quot;um&quot;" newline="True"/>
+                </then>
+                <else>
+                    <if expression="num == 2">
+                        <then>
+                            <output expression="&quot;dois&quot;" newline="True"/>
+                        </then>
+                        <else>
+                            <if expression="num == 3">
+                                <then>
+                                    <output expression="&quot;tr&#234;s&quot;" newline="True"/>
+                                </then>
+                                <else>
+                                    <if expression="num == 4">
+                                        <then>
+                                            <output expression="&quot;quatro&quot;" newline="True"/>
+                                        </then>
+                                        <else>
+                                            <if expression="num == 5">
+                                                <then>
+                                                    <output expression="&quot;cinco&quot;" newline="True"/>
+                                                </then>
+                                                <else>
+                                                    <if expression="num == 6">
+                                                        <then>
+                                                            <output expression="&quot;seis&quot;" newline="True"/>
+                                                        </then>
+                                                        <else>
+                                                            <if expression="num == 7">
+                                                                <then>
+                                                                    <output expression="&quot;sete&quot;" newline="True"/>
+                                                                </then>
+                                                                <else>
+                                                                    <if expression="num == 8">
+                                                                        <then>
+                                                                            <output expression="&quot;oito&quot;" newline="True"/>
+                                                                        </then>
+                                                                        <else>
+                                                                            <if expression="num == 9">
+                                                                                <then>
+                                                                                    <output expression="&quot;nove&quot;" newline="True"/>
+                                                                                </then>
+                                                                                <else>
+                                                                                    <if expression="num == 10">
+                                                                                        <then>
+                                                                                            <output expression="&quot;dez&quot;" newline="True"/>
+                                                                                        </then>
+                                                                                        <else/>
+                                                                                    </if>
+                                                                                </else>
+                                                                            </if>
+                                                                        </else>
+                                                                    </if>
+                                                                </else>
+                                                            </if>
+                                                        </else>
+                                                    </if>
+                                                </else>
+                                            </if>
+                                        </else>
+                                    </if>
+                                </else>
+                            </if>
+                        </else>
+                    </if>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

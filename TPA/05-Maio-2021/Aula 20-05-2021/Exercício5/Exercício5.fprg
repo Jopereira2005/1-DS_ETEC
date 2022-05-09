@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="FAMILIA PEREIRA"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2021-06-03 05:43:33 "/>
+        <attribute name="created" value="RkFNSUxJQSBQRVJFSVJBO0RFU0tUT1AtUFM2QUVIVjsyMDIxLTA2LTAzOyIwNTozMjoxMiAiOzMzMjU="/>
+        <attribute name="edited" value="RkFNSUxJQSBQRVJFSVJBO0RFU0tUT1AtUFM2QUVIVjsyMDIxLTA2LTAzOyIwNTo0MzozMyAiOzE7MzQzOA=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="A, B, C, qB, delta, Vb, Rdelta, divA, X1, X2" type="Real" array="False" size=""/>
+            <input variable="A"/>
+            <input variable="B"/>
+            <input variable="C"/>
+            <assign variable="qB" expression="B * B"/>
+            <assign variable="delta" expression="qB - 4 * (A * C)"/>
+            <assign variable="Vb" expression="B * (-1)"/>
+            <assign variable="Rdelta" expression="sqrt(delta)"/>
+            <assign variable="divA" expression="2 * a"/>
+            <assign variable="X1" expression="(Vb + Rdelta) / divA"/>
+            <assign variable="X2" expression="(Vb - Rdelta) / divA"/>
+            <output expression="&quot;As ra&#237;zes reais s&#227;o: &quot; &amp; X1 &amp; &quot; e &quot; &amp; X2" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

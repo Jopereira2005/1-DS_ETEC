@@ -1,0 +1,53 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="FAMILIA PEREIRA"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2021-04-29 12:27:47 "/>
+        <attribute name="created" value="RkFNSUxJQSBQRVJFSVJBO0RFU0tUT1AtUFM2QUVIVjsyMDIxLTA0LTI5OyIxMjowMDoxNiAiOzMzMjg="/>
+        <attribute name="edited" value="RkFNSUxJQSBQRVJFSVJBO0RFU0tUT1AtUFM2QUVIVjsyMDIxLTA0LTI5OyIxMjoyNzo0NyAiOzE7MzQ0OQ=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="n1, n2, n3" type="Integer" array="False" size=""/>
+            <input variable="n1"/>
+            <input variable="n2"/>
+            <input variable="n3"/>
+            <if expression="n1 &gt; n2">
+                <then>
+                    <if expression="n1 &gt; n3">
+                        <then>
+                            <output expression="&quot;O maior &#233;: &quot; &amp; n1" newline="True"/>
+                        </then>
+                        <else/>
+                    </if>
+                </then>
+                <else/>
+            </if>
+            <if expression="n2 &gt; n1">
+                <then>
+                    <if expression="n2 &gt; n3">
+                        <then>
+                            <output expression="&quot;O maior &#233;: &quot; &amp; n2" newline="True"/>
+                        </then>
+                        <else/>
+                    </if>
+                </then>
+                <else/>
+            </if>
+            <if expression="n3 &gt; n1">
+                <then>
+                    <if expression="n3 &gt; n2">
+                        <then>
+                            <output expression="&quot;O maior &#233;: &quot; &amp; n3" newline="True"/>
+                        </then>
+                        <else/>
+                    </if>
+                </then>
+                <else/>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

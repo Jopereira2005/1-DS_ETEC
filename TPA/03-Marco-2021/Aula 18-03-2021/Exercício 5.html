@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Média</title>
+		<meta charset="utf-8">
+	</head>
+	<body>
+		<script>
+			Prova = Number(prompt("Sua nota da prova ?"));
+			Lista = Number(prompt("Sua nota da lista ?"));
+			Trabalho = Number(prompt("Sua nota no trabalho ?"));
+
+			C1 = parseFloat(Prova + Lista + Trabalho);
+			media = parseFloat(C1 / 3);
+
+			document.write("<p><h1> Crie um programa que calcule a média de 3 notas </h1></p>"); 
+                
+            document.write("<p><h3>Para criar um programa desse é necessario cria 3 variáveis prompt, uma pega a nota da prova, a outra da lista e outra do trabalho, crie uma outra variável que execute a conta de adição da prova, lista e trabalho(conta A), logo depois em outra variável pegue a conta A e divida por 3(média) está ai o resultado.</h3></p>");
+                
+            document.write("<h3>Prova = Number(prompt(Sua nota da prova ?));</h3>");
+            document.write("<h3>Prova = Number(prompt(Sua nota da lista ?));</h3>");
+            document.write("<h3>Trabalho = Number(prompt(Sua nota no trabalho ?));</h3><br><br>");
+
+            document.write("<h3>C1 = parseFloat(Prova + Lista + Trabalho);</h3>");
+            document.write("<h3>media = parseFloat(C1 / 3);</h3><br>");
+
+			document.write("<h2>Sua média é " + media + "</h2>");
+		</script>
+	</body>
+</html>

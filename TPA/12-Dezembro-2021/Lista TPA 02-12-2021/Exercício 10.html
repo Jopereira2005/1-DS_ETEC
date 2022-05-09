@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<meta charset="utf-8">
+		<title>Exercício 10</title>
+		<style> 
+			*{
+			font-family: monospace;
+			font-size: 32px ;
+			text-align: center;
+			};
+		</style>
+	</head>
+	<body>		
+		<script>
+			n = 0;
+            var matrix = [];
+
+            for(var i = 0 ; i < 6 ; i++) {
+                matrix[i] = [];
+            }
+
+
+            for(var i = 0; i < 6 ; i++){
+                for(var j = 0; j < 4 ; j++){
+                    matrix[i][j] = n = parseInt(prompt("Insira os números"));
+                    n++;
+                }
+            }
+
+
+            for(var i = 0 ;i < 6 ; i++){
+                for(var j = 0 ; j < 4; j++) {
+                document.write(matrix[i][j])
+				document.write(" | ")
+                }
+                document.write("<br>")
+            }
+			document.write("<hr>")
+			for(var i = 0 ;i < 4 ; i++){
+                for(var j = 0 ; j < 6; j++) {
+                document.write(matrix[j][i])
+				document.write(" | ")
+                }
+                document.write("<br>")
+            }
+		</script>
+	</body>
+</html>

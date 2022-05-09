@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="FAMILIA PEREIRA"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2021-06-24 04:28:34 "/>
+        <attribute name="created" value="RkFNSUxJQSBQRVJFSVJBO0RFU0tUT1AtUFM2QUVIVjsyMDIxLTA2LTI0OyIwNDowOToxNyAiOzMzMzY="/>
+        <attribute name="edited" value="RkFNSUxJQSBQRVJFSVJBO0RFU0tUT1AtUFM2QUVIVjsyMDIxLTA2LTI0OyIwNDoyODozNCAiOzE7MzQ0NA=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="grav, cup, gravV, cupV, gravC, cupC, comp, vend, total, taxa, taxaF" type="Real" array="False" size=""/>
+            <input variable="grav"/>
+            <input variable="cup"/>
+            <assign variable="gravC" expression="grav * 0.60"/>
+            <assign variable="cupC" expression="cup * 1.10"/>
+            <assign variable="gravV" expression="grav * 1.20"/>
+            <assign variable="cupV" expression="grav * 2.30"/>
+            <assign variable="comp" expression="gravC + cupC"/>
+            <assign variable="vend" expression="gravV + cupV"/>
+            <assign variable="total" expression="vend + comp"/>
+            <assign variable="taxa" expression="total / 100"/>
+            <assign variable="taxaF" expression="taxa * 10"/>
+            <output expression="&quot;a) O faturamento total ao final do dia.&quot; &amp; &quot;R = R$&quot; &amp; total" newline="True"/>
+            <output expression="&quot;b) O lucro do dia.&quot; &amp; &quot;R = R$ &quot; &amp; vend" newline="True"/>
+            <output expression="&quot;c) A valor destinado a programas de preserva&#231;&#227;o das florestas&quot; &amp; &quot;R = R$ &quot; &amp; taxaF" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

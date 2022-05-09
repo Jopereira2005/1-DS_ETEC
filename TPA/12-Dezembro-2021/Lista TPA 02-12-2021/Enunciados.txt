@@ -1,0 +1,84 @@
+1 - Crie um programa que cria e exibe a matriz abaixo:
+
+ABCDEFGH
+IJKLMNOP
+QRSTUVWX
+YZ[\]^_`
+
+Observação: Use Loops e a função String.fromCharCode()
+
+
+2 - Crie um programa que cria e exibe a matriz abaixo:
+
+
+\.........
+.\........
+..\.......
+...\......
+....\.....
+.....\....
+......\...
+.......\..
+........\.
+.........\
+
+
+
+3 - Crie um programa que cria e exibe a matriz abaixo:
+
+
+
+X·········X
+·X·······X.
+··X·····X··
+···X···X···
+····X·X····
+·····X·····
+····X·X····
+···X···X···
+··X·····X··
+·X·······X·
+X·········X
+
+
+
+4 - Crie um programa que recebe 9 nomes de pessoas e os armazena em uma matriz 3x3. Em seguida, exibe esses dados em uma tabela.
+
+
+
+
+5 - Uma empresa deseja cadastrar seus produtos. Cada produto tem um nome, peso, preço e cor. Crie um programa que recebe os dados de 10 produtos e os armazena em uma matriz. Em seguida também deve:
+
+a) Exibir a matriz em uma tabela
+b) Informar a média dos pesos
+c) Informar a somatória dos preços
+
+
+
+6 - Crie um programa que recebe as dimensões de um cilindro e informa seu volume.
+
+
+7 - Crie uma programa que exibe a sequencia fibonacci.
+
+
+8 - Crie um programa que recebe um número inteiro e retorna sua representação binária. (Sem usar funções prontas).
+
+
+9 - Crie um programa que recebe uma frase do usuário e exibe essa frase trocando as letras A, E, I e O por 4, 3, 1 e 0.
+
+Exemplo: "Hoje acordei cedo."
+Fica   : "H0j3 4c0rd31 c3d0."
+
+
+10 - Crie um programa que recebe 24 números e os armazena em uma matriz 6x4, em seguida exibe essa matriz transposta.
+
+
+11 - Escreva um programa que recebe 2 números inteiros A e B, cuja divisão de A por B gera uma dízima periódica infinita. O programa deve exibir o produdo da divisão com 50 dígitos de precisão.
+
+
+
+Instruções
+
+- Cada exercício vale 1 ponto
+- Trabalho INDIVIDUAL
+- Entregue via Team todos os 

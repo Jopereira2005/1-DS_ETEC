@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="FAMILIA PEREIRA"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2021-06-03 03:54:46 "/>
+        <attribute name="created" value="RkFNSUxJQSBQRVJFSVJBO0RFU0tUT1AtUFM2QUVIVjsyMDIxLTA2LTAzOyIwMzo0MzoxMCAiOzMzMjM="/>
+        <attribute name="edited" value="RkFNSUxJQSBQRVJFSVJBO0RFU0tUT1AtUFM2QUVIVjsyMDIxLTA2LTAzOyIwMzo1NDo0NiAiOzE7MzQ0Mg=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="n1, n2, rec" type="Real" array="False" size=""/>
+            <input variable="n1"/>
+            <input variable="n2"/>
+            <assign variable="rec" expression="n1"/>
+            <assign variable="n1" expression="n2"/>
+            <assign variable="n2" expression="rec"/>
+            <output expression="&quot;Agora os valores est&#227;o trocados:&quot; &amp; n1 &amp; &quot; e &quot; &amp; n2" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

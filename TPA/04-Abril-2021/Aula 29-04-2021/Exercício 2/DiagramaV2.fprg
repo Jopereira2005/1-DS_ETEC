@@ -1,0 +1,40 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="FAMILIA PEREIRA"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2021-05-06 11:55:23 "/>
+        <attribute name="created" value="RkFNSUxJQSBQRVJFSVJBO0RFU0tUT1AtUFM2QUVIVjsyMDIxLTA0LTI5OyIxMjowMDoxNiAiOzMzMjg="/>
+        <attribute name="edited" value="RkFNSUxJQSBQRVJFSVJBO0RFU0tUT1AtUFM2QUVIVjsyMDIxLTA1LTA2OyIxMTo1NToyMyAiOzI7MzQ0MA=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="n1, n2, n3" type="Real" array="False" size=""/>
+            <input variable="n1"/>
+            <input variable="n2"/>
+            <input variable="n3"/>
+            <if expression="n1 &gt;= n2">
+                <then>
+                    <if expression="n1 &gt;= n3">
+                        <then>
+                            <output expression="&quot;O maior &#233;: &quot; &amp; n1" newline="True"/>
+                        </then>
+                        <else/>
+                    </if>
+                </then>
+                <else>
+                    <if expression="n2 &gt;= n3">
+                        <then>
+                            <output expression="&quot;O maior &#233;: &quot; &amp; n2" newline="True"/>
+                        </then>
+                        <else>
+                            <output expression="&quot;O maior &#233;: &quot; &amp; n3" newline="True"/>
+                        </else>
+                    </if>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

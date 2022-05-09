@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="FAMILIA PEREIRA"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2021-06-24 05:55:27 "/>
+        <attribute name="created" value="RkFNSUxJQSBQRVJFSVJBO0RFU0tUT1AtUFM2QUVIVjsyMDIxLTA2LTI0OyIwNTo1MDo0OSAiOzMzMzg="/>
+        <attribute name="edited" value="RkFNSUxJQSBQRVJFSVJBO0RFU0tUT1AtUFM2QUVIVjsyMDIxLTA2LTI0OyIwNTo1NToyNyAiOzE7MzQ0Nw=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="n, t0, t1, t2, t3, t4, t5, t6, t7, t8, t9, t10" type="Integer" array="False" size=""/>
+            <input variable="n"/>
+            <assign variable="t0" expression="n * 0"/>
+            <assign variable="t1" expression="n * 1"/>
+            <assign variable="t2" expression="n * 2"/>
+            <assign variable="t3" expression="n * 3"/>
+            <assign variable="t4" expression="n * 4"/>
+            <assign variable="t5" expression="n * 5"/>
+            <assign variable="t7" expression=""/>
+            <assign variable="" expression=""/>
+            <assign variable="" expression=""/>
+            <assign variable="" expression=""/>
+        </body>
+    </function>
+</flowgorithm>

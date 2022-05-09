@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<meta charset="utf-8">
+		<title>Exercício 4</title>
+		<style>
+			*{
+            font-family: monospace;
+            font-size: 32px ;
+            text-align: center;
+        };
+		</style>
+	</head>
+	<body>		
+		<script>
+
+		var matrix = [];
+
+		for(var i = 0 ; i < 3 ; i++) {
+			matrix[i] = [];
+		};
+
+
+		for(var i = 0; i < 3 ; i++){
+			for(var j = 0; j < 3 ; j++){
+				matrix[i][j] = prompt("Insira os nomes");
+			
+			}
+			
+		};
+
+
+		for(var i = 0 ;i < 3 ; i++){
+			for(var j = 0 ; j < 3; j++) {
+				document.write(matrix[i][j])
+				document.write("|")	
+			}
+			document.write("<br>");
+		};
+		</script>
+	</body>
+</html>

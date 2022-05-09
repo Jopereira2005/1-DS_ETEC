@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<meta charset="utf-8">
+		<title>Exercício 8</title>
+		<style>
+			*{
+          font-family: monospace;
+          font-size: 32px ;
+          text-align: center;
+        };
+		</style>
+	</head>
+	<body>		
+		<script>
+
+				var num = parseInt(prompt("Insira um número"));
+
+        var bin = " ";
+
+        for(var r = 0 ; num >= 1 ;){ 
+            r = Math.floor(num % 2);
+            num = Math.floor(num / 2);
+            bin = r + bin;
+        }
+
+        document.write("Número: " + num + "<br>" + "Número em binário: " + bin);
+
+		</script>
+	</body>
+</html>

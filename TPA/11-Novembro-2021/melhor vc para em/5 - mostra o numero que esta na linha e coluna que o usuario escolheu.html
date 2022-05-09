@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        table, th, td {
+    border:1px solid black;
+    }
+        
+    </style>
+</head>
+<body>
+
+    <script>
+        var numeros=0;
+        var numeros2=1;
+        var auxiliar=0;
+        var auxiliar2=0;
+        var auxiliar3=0;
+        var linha=Number(prompt("Qual e a linha?"))-1;
+        var coluna=Number(prompt("Qual e a coluna?"))-1;
+        matrix=[];
+        for(var i=0;i<5;i++){
+            matrix[i]=[]
+ 
+            document.write("<br>");
+            for(var j=0; j<5; j++){
+                numeros++;
+                matrix[i][j]= numeros;
+            }
+
+        }
+        document.write(matrix[linha][coluna]);
+        
+    </script>
+    
+</body>
+</html>

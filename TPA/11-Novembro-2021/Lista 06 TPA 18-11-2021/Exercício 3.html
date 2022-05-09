@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<meta charset="utf-8">
+		<title>Exercício 3</title>
+	</head>
+	<body>		
+		<script>
+            
+			a = [];
+			i = 0
+
+			while(i < 10){  
+			i++
+			nt = Number(prompt("Digite as notas"));
+			
+				while (nt < 0 || nt > 10) { 
+					nt = Number(prompt("Valor invalido, digite de novo"));
+				}
+
+			a[i] = nt
+			}
+			document.write("Notas:" + a)
+			
+		</script>
+	</body>
+</html>

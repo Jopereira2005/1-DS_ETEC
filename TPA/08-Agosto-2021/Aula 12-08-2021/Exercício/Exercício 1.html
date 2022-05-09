@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<title>Exercício 1</title>
+		<meta charset="utf-8">
+	</head>
+	<body>
+            <h2>Descrição Narrativa</h2>
+            <h3>
+            1. Declare as variaveis A e B com seus respectivos valores<br>
+            2. Usando o sistema de loop calcule em quanto tempo a cidade A passara a B, com uma taxa de vegetabilidade de: A 3% e B 1.5%<br>
+            3. Calcule<br>
+            4. Mostre na tela a progressão<br>
+            </h3>
+            <hr><br>	
+		<script>
+            document.write ("<h1>Para o país A passar o pais B será necessario:</h1><br>");
+
+            var A = 9000
+            var B = 20000
+            var anos = 1
+
+            for(; A <= B ; anos++) {
+
+            var A = ((A / 100) * 3) + A
+            var B = ((B / 100) * 1.5) + B
+            document.write ("<h2>País A: " + A + " <br>" + "País B: " + B + "<br>" + "Tempo: " + anos  + "<br><br></h2>");
+            }
+
+      </script>
+	</body>
+</html>
+
+<script>
+      //variação do professor
+      var A = 9000
+      var B = 20000
+
+      var taxaA = 1.03
+      var taxaB = 1.015
+
+      var count = 0
+
+      while (A <= B) {
+            A = A * taxaA
+            B = B * taxaB
+            count++
+      }
+
+      document.write("passaram " + 55 + " anos.")
+
+</script>
+x

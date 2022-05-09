@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Matrizes em Javascript</title>
+    <style>
+        table, th, td {
+    border:1px solid black;
+    }
+        
+    </style>
+</head>
+<body>
+    <table>
+    <script>
+        var numeros=0;
+        matrix=[];
+        for(var i=0;i<5;i++){
+            matrix[i]=[]
+            document.write("</tr>")  
+            document.write("<br>");
+            for(var j=0; j<5; j++){
+                var numeros=Number(prompt("Insira um numero"))
+                matrix[i][j]= numeros;
+                document.write("<td>",matrix[i][j],"</td>");
+            }
+            document.write("</tr>")  
+        }
+    </script>
+    </table>
+</body>
+</html>

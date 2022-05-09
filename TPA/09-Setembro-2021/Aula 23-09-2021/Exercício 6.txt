@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<meta charset="utf-8">
+		<title>Exercício 5</title>
+	</head>
+	<body>		
+		<script>
+
+
+		var n=parseInt(prompt("Digite um número: "));
+		var f = 1;		
+
+		for(var i = 1; i <= n; i++){
+
+  		f = f * i;
+
+		}
+
+		document.write(n + "! = " + n + "x" + n + "=" + f);
+
+		</script>
+	</body>
+</html>

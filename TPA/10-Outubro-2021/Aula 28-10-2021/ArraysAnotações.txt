@@ -1,0 +1,64 @@
+Introdução:
+    Praticamente to o software acessa a memória para armazenar dados na forma de variável
+    
+    Variável: espaço na memória com nome.
+
+    É muito comum usar o proframa precisar usar um conjunto de maneira organizada.
+    Ex= 
+
+    -Rank em um jogo
+    -Notas de uma turma
+
+    Variável simples: Armazena um único valor
+    Ex:
+
+    var num = 7;
+
+    Arrays: Vários espaços de memória 
+    
+    Como declarar um array ?
+
+    dados = []; //Começa vázio
+
+    Ex:
+
+    scores = [];
+    salarios = [];
+
+    Os elementos de um array pode se acessado por meio de índices.
+
+    Um índice é um número inteiro que representa a posição de um elemeto.
+    O primeiro elemento é o número 0.
+    Um elemento é apontado na forma array[indice].
+    O elemento é indicado por tamanho 1
+
+    Ex
+    Valores: 9 7 8 2 0
+
+        notas[3] = 2
+
+    Você pode usar um indice numa variável:
+
+    i = 5;
+
+    dados [i] = 42
+
+    O elemento 5 do array dados recebeu o valor 42
+
+    Os elementos de um array podem trocar valores com variável simples e com outros elementeos de arrays:
+    Ex:
+
+    i = 5;
+    j = 7;
+    v = 8;
+
+    dados[i] =  42
+    i = 6;
+
+    dados[i] = v;
+    dados[j] = dados[5];
+    dados[9] = dados[j] + 3;
+
+    v = dados[j];
+
+    alert(v);

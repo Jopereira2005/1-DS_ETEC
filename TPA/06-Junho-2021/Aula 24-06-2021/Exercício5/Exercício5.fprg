@@ -1,0 +1,53 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="FAMILIA PEREIRA"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2021-06-24 05:24:52 "/>
+        <attribute name="created" value="RkFNSUxJQSBQRVJFSVJBO0RFU0tUT1AtUFM2QUVIVjsyMDIxLTA2LTI0OyIwNToxNToxNyAiOzMzMzQ="/>
+        <attribute name="edited" value="RkFNSUxJQSBQRVJFSVJBO0RFU0tUT1AtUFM2QUVIVjsyMDIxLTA2LTI0OyIwNToyNDo1MiAiOzE7MzQ0MQ=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="ano, anoN, Idade" type="Integer" array="False" size=""/>
+            <input variable="ano"/>
+            <input variable="anoN"/>
+            <assign variable="Idade" expression="ano - anoN"/>
+            <if expression="Idade &gt; 16">
+                <then>
+                    <output expression="&quot;Parab&#233;ns voc&#234; pode votar.&quot;" newline="True"/>
+                </then>
+                <else>
+                    <output expression="&quot;Voc&#234; n&#227;o pode votar.&quot;" newline="True"/>
+                </else>
+            </if>
+            <if expression="Idade &gt; 18">
+                <then>
+                    <output expression="&quot;Parab&#233;ns voc&#234; pode tirar uma carteira de abilita&#231;&#227;o.&quot;" newline="True"/>
+                </then>
+                <else>
+                    <output expression="&quot;Voc&#234; n&#227;o pode tirar uma carteira de abilita&#231;&#227;o.&quot;" newline="True"/>
+                </else>
+            </if>
+            <if expression="Idade &gt; 21">
+                <then>
+                    <output expression="&quot;Parab&#233;ns voc&#234; pode se eleger para prefeito.&quot;" newline="True"/>
+                </then>
+                <else>
+                    <output expression="&quot;Voc&#234; n&#227;o pode pode se eleger para prefeito.&quot;" newline="True"/>
+                </else>
+            </if>
+            <if expression="Idade &gt; 35">
+                <then>
+                    <output expression="&quot;Parab&#233;ns voc&#234; pode se eleger para presidente.&quot;" newline="True"/>
+                </then>
+                <else>
+                    <output expression="&quot;Voc&#234; n&#227;o pode pode se eleger para presidente.&quot;" newline="True"/>
+                </else>
+            </if>
+            <output expression="&quot;Afinal voc&#234; tem &quot; &amp; Idade &amp; &quot; anos de idade.&quot;" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

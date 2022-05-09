@@ -1,0 +1,77 @@
+Exercício 1
+
+salario ← 1000
+conta   ← salario
+agua    ← 100
+luz     ← 200
+despesa ← agua + luz
+conta   ← salario - despesa
+net     ← 200
+celular ← 300
+despesa ← net + celular
+conta   ← conta - despesa
+
+
+
+
+
+Exercício 2
+<jogo>
+<Personagem A>
+Saúde A=100%
+Força A=80
+</Personagem A>
+
+<Personagem B>
+Saúde B=100%
+Força B=60
+</Personagem B>
+
+Saúde A=100 - 30
+Força A=80 + 20
+Força B=60 - 20
+
+Saúde B=100 - 40
+Saúde B=60 + 20
+
+<Personagem A>
+Saúde A=70%
+Força A=100
+</Personagem A>
+
+<Personagem B/>
+Saúde B=80%
+Força B=40
+</Personagem B>
+</jogo>
+
+
+
+
+
+Exercício 3
+1- Receber a nota da prova;
+2- Receber a nota do trabalho;
+3- Receber a nota da lista
+4- Somar as notas;
+5- Dividir o resultado da soma por 3;
+6- Exibir o resultado;
+
+
+
+
+
+Exercício 4
+
+Peso da Prova   = 1
+Peso do Trabalho= 2
+Peso da Lista   = 4
+
+1- Receber a nota da prova;
+2- Receber a nota do trabalho;
+3- Receber a nota da lista;
+4- Multiplicar o trabalho por 2;
+5- Multiplicar a lista por 4;
+6- Somar as notas;
+7- Dividir o resultado da soma por 7;
+8- Exibir o resultado;

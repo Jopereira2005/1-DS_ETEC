@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<title>Exercício 1</title>
+		<meta charset="utf-8">
+	</head>
+	<body>
+            <h2>Descrição Narrativa</h2>
+            <h3>
+            1. Pegue o valor que corresponde a um ano<br>
+            2. Usando if e else calcule e determine se o ano é bissexto ou não.<br>
+            3. Calcule<br>
+            4. Mostre na tela a progressão<br>
+            </h3>
+            <hr><br>
+		<script>
+        var ano = Number(prompt("Qual o ano ?"))
+
+        if (ano % 400 == 0) {}
+        if(ano % 4==0 && ano % 100 != 0) {
+        document.write("<h2>É bissexto</h2>");
+
+        }else {
+        document.write("<h2>Não é bissexto</h2>")}
+
+
+        </script>
+	</body>
+</html>

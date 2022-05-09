@@ -1,0 +1,45 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="FAMILIA PEREIRA"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2021-06-03 04:04:57 "/>
+        <attribute name="created" value="RkFNSUxJQSBQRVJFSVJBO0RFU0tUT1AtUFM2QUVIVjsyMDIxLTA2LTAzOyIwMzo1NTozMSAiOzMzMjk="/>
+        <attribute name="edited" value="RkFNSUxJQSBQRVJFSVJBO0RFU0tUT1AtUFM2QUVIVjsyMDIxLTA2LTAzOyIwNDowNDo1NyAiOzE7MzQ0MA=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="n1, n2, n3, rec" type="Real" array="False" size=""/>
+            <input variable="n1"/>
+            <input variable="n2"/>
+            <input variable="n3"/>
+            <if expression="n1 &gt;= n2">
+                <then>
+                    <assign variable="rec" expression="n1"/>
+                    <assign variable="n1" expression="n2"/>
+                    <assign variable="n2" expression="rec"/>
+                </then>
+                <else/>
+            </if>
+            <if expression="n2 &gt;= n3">
+                <then>
+                    <assign variable="rec" expression="n2"/>
+                    <assign variable="n2" expression="n3"/>
+                    <assign variable="n3" expression="rec"/>
+                </then>
+                <else/>
+            </if>
+            <if expression="n1 &gt;= n2">
+                <then>
+                    <assign variable="rec" expression="n1"/>
+                    <assign variable="n1" expression="n2"/>
+                    <assign variable="n2" expression="rec"/>
+                </then>
+                <else/>
+            </if>
+            <output expression="&quot;A ordem crescente &#233;: &quot; &amp; n1 &amp; &quot; &quot; &amp; n2 &amp; &quot; &quot; &amp; n3" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

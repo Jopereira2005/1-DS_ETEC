@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="FAMILIA PEREIRA"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2021-06-03 04:16:32 "/>
+        <attribute name="created" value="RkFNSUxJQSBQRVJFSVJBO0RFU0tUT1AtUFM2QUVIVjsyMDIxLTA2LTAzOyIwNDowNzoyNSAiOzMzMzA="/>
+        <attribute name="edited" value="RkFNSUxJQSBQRVJFSVJBO0RFU0tUT1AtUFM2QUVIVjsyMDIxLTA2LTAzOyIwNDoxNjozMiAiOzE7MzQzNg=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="s, horas, restos, minutos, segundos" type="Integer" array="False" size=""/>
+            <input variable="s"/>
+            <assign variable="horas" expression="s / 3600"/>
+            <assign variable="restos" expression="s % 3600"/>
+            <assign variable="minutos" expression="restos / 60"/>
+            <assign variable="segundos" expression="restos % 60"/>
+            <output expression="&quot;A quantidade em horas, minutos e segundos &#233;: &quot; &amp; horas &amp; &quot;h:&quot; &amp; minutos &amp; &quot;m:&quot; &amp; &quot;s&quot; &amp; segundos" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

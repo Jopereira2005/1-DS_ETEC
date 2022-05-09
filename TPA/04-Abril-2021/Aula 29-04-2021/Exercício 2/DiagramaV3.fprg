@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="FAMILIA PEREIRA"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2021-05-06 12:00:43 "/>
+        <attribute name="created" value="RkFNSUxJQSBQRVJFSVJBO0RFU0tUT1AtUFM2QUVIVjsyMDIxLTA1LTA2OyIxMTo1NToyNiAiOzMzMzQ="/>
+        <attribute name="edited" value="RkFNSUxJQSBQRVJFSVJBO0RFU0tUT1AtUFM2QUVIVjsyMDIxLTA1LTA2OyIxMjowMDo0MyAiOzE7MzQzMg=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="A, B, C, Maior" type="Real" array="False" size=""/>
+            <input variable="A"/>
+            <input variable="B"/>
+            <input variable="C"/>
+            <if expression="A&gt;B">
+                <then>
+                    <assign variable="Maior" expression="A"/>
+                </then>
+                <else>
+                    <assign variable="Maior" expression="B"/>
+                </else>
+            </if>
+            <if expression="Maior &gt; C">
+                <then>
+                    <output expression="&quot;O maior &#233;: &amp; Maior&quot;" newline="True"/>
+                </then>
+                <else>
+                    <output expression="&quot;O maior &#233;: &quot; &amp; C" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

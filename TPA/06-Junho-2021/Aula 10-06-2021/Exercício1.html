@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<title>Exercício 1</title>
+		<meta charset="utf-8">
+	</head>
+	<body>		
+		<script>
+
+        vida = Number(prompt("Informe a vida do personagem com um número de 1 até 100."));        
+        tempo = Number(prompt("Informe o tempo da fase com um número de 1 até 60."));
+
+        if (tempo == 0 || vida == 0) {
+            document.write("<h1>GAME OVER</h1>");
+        } else
+            document.write("<h1>Parabéns você passou com: " + vida + " de vida e com um tempo de " + tempo + " segundos</h1>")
+
+      //if (!(vida == 0)) {
+      //    document.write("<h1>GAME OVER</h1>");
+      //} else
+      //    document.write("<h1>Parabéns você passou com: " + vida + " de vida e com um tempo de " + tempo + " segundos</h1>")
+      // outra forma usando not   
+
+		</script>
+	</body>
+</html>

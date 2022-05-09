@@ -1,0 +1,73 @@
+Lista 6 - Vetores e Matrizes
+
+
+1 - Crie um programa que recebe um texto e o escreve ao contrário.
+
+
+2 - Crie um program que recebe uma frase e informa se é ou não ou palíndromo. Ponto extra se desconsiderar espaços e não criar nenhuma cópia nem alterar a string.
+Não vale usar métodos prontos
+
+
+3 - Crie um programa onde o usuário informa a nota de 10 alunos e armazena em um array. As notas devem estar no intervalo de 0 a 10, portanto, caso informe uma nota inválida, deve ser informado do erro e uma nova nota deve ser solicitada.
+
+
+
+4 - Em um concurso cultural há um competição para eleger o melhor filme. Para isso, pessoas irão votar em seu filme favorito entre os candidatos que são numerados como a seguir:
+
+1 - Matrix
+2 - Duna
+3 - Muppets
+4 - Transformes
+5 - Madagascar
+
+Ao votar, a pessoa deve informar o número do filme escolhido.
+Como exercício, escreva um programa que lê os votos de 10 pessoas e informa a quantidade de votos de cada candidato.
+
+
+5 - Escreva um programa que recebe um conjunto de 10 números inteiros. Em seguida recebe mais um número que chamaremos de q. Ao final, o programa deve informar quantas vezes o número q aparece o conjunto contém.
+
+
+
+6 - Escreva um programa que recebe um texto em seguida recebem um caractere. Ao final, o programa deve informar quantos vezes esse caractere aparece no texto.
+
+
+
+7 - Escreva um programa que recebe 2 números e os armazena em duas variáveis chamadas A e B. Em seguida, troque o conteúdo das variáveis de forma que A receba o valor inicial de B e B receba o valor inicial de A.
+
+
+8 - Escreva um programa que recebe 3 números e os exibe em ordem crescente.
+
+
+9 - A Mega Sena é um jogo onde um apostador seleciona 6 números entre 1 e 60. Após as apostas, é realizado um sorteio com 6 números também entre 1 e 60. Os prêmios variam conforme a quantidade de acertos onde a sena, a quina 5 e a quadra que representam respectivamente 6, 5 e 4 acertos.
+Faça um programa que recebe uma aposta e um sorteio e informa se o apostador o prêmio é a sena, quina, quadra ou nenhum.
+
+
+
+10 - Desenhe uma arvore de natal. Exemplo:
+
+            *
+           /*\
+          /***\
+         /*****\
+        /*******\
+       /*********\
+      /***********\
+           |||
+           |||
+         \=====/            
+
+
+
+Instruções
+
+- Cada exercício vale 1 ponto
+- Trabalho INDIVIDUAL
+- Entregue via Team todos os códigos
+- Verifique seu trabalho antes de entregar!
+- Problemas de legibilidade e organização podem implicar na nota.
+
+
+
+5  -> R
+7  -> B
+10 -> MB

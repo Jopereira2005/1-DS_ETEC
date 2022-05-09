@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<title>Exercício 1</title>
+		<meta charset="utf-8">
+	</head>
+	<body>
+		<h3>
+			1. Receba a data de nascimento<br>
+			2. Receba a data do ano que estamos<br>
+			3. Subtraia os dois e pegue a idade<br>
+			4. Com a idade faça as comparações pedidas com If e else<br>
+			5. Exiba o resultado na tela<br>
+
+		</h3>		
+		<script>
+
+		ano = Number(prompt("Em que ano nós estamos ?"));
+		anoN = Number(prompt("Em que ano você nasceu ?"));
+			
+		Idade = ano - anoN
+
+        if (Idade > 16) {
+			document.write("Parabéns você pode votar.<br>")
+		} else {
+			document.write("Você não pode votar.<br>")
+		}        
+
+		if (Idade > 18) {
+			document.write("Parabéns você pode tirar uma carteira de abilitação.<br>")
+		} else {
+			document.write("Você não pode tirar uma carteira de abilitação.<br>")
+		}
+
+		if (Idade > 21) {
+			document.write("Parabéns você pode se eleger para prefeito.<br>")
+		} else {
+			document.write("Você não pode pode se eleger para prefeito.<br>")
+		}
+
+		if (Idade > 35) {
+			document.write("Parabéns você pode se eleger para presidente.<br>")
+		} else {
+			document.write("Você não pode pode se eleger para presidente.<br>")
+		}
+
+		document.write("<h4>Afinal você tem " + Idade + " anos de idade.</h4> ")
+			
+		</script>
+	</body>
+</html>

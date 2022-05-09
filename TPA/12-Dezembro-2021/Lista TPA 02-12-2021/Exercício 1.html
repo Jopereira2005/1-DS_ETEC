@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<meta charset="utf-8">
+		<title>Exercício 1</title>
+        <style> 
+         *{
+            
+            font-family: monospace;
+            font-size: 32px ;
+            text-align: center;
+        };
+        </style>
+	</head>
+	<body>		
+		<script>
+
+            //Modo facil
+            //document.write("ABCDEFGH" + "<br>")
+            //document.write("IJKLMNOP" + "<br>")
+            //document.write("QRSTUVWX" + "<br>")
+            //document.write("YZ[\]^_`")
+
+            //Modo infernal
+
+            abc = 65;
+
+            var matrix = [];
+
+            for(var i = 0 ; i < 4 ; i++) {
+                matrix[i] = [];
+            }
+
+
+            for(var i = 0; i < 5 ; i++){
+                for(var j = 0; j < 8 ; j++){
+                    matrix[i][j] = String.fromCharCode(abc);
+                    abc++
+                }
+            }
+
+
+            for(var i = 0 ;i < 4 ; i++){
+                for(var j = 0 ; j < 8; j++) {
+                document.write(matrix[i][j])
+                }
+                document.write("<br>")
+            }
+
+
+        
+		</script>
+	</body>
+</html>

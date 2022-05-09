@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<title>Exercício 2</title>
+		<meta charset="utf-8">
+	</head>
+	<body>
+        
+        <h3>
+            1. Pegue o primeiro número<br>
+            2. Pegue o segundo número<br>
+            3. Pegue o terceiro número<br>
+            4. Inverta os valores usando um sistema baseado em if e else<br>
+            5. exiba o resultado na tela<br>
+
+        
+        </h3>
+		<script>
+
+			n1 = Number(prompt("Qual o primeiro número ?"));
+			n2 = Number(prompt("Qual o segundo número ?"));
+            n3 = Number(prompt("Qual o terceiro número ?"));
+
+			if (n1 >= n2){
+                rec = n1
+                n1 = n2
+                n2 = rec
+            }
+            if (n2 >= n3){
+                rec = n2
+                n2 = n3
+                n3 = rec
+            }
+            if (n1 >= n2){
+                rec = n1
+                n1 = n2                   
+				n2 = rec
+			}
+   
+            document.write("<h3>A ordem crescente é: " + n1 + " " + n2 + " " + " " + n3 + "</h3>");
+	
+		</script>
+	</body>
+</html>

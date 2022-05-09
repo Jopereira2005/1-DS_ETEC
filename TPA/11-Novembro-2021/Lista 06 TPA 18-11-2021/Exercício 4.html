@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<meta charset="utf-8">
+		<title>Exercício 4</title>
+	</head>
+	<body>		
+		<script>
+            
+            alert("Bem vindo a votação do concurso cultural vote em um dos filmes: " + "\n" + 
+						"1 - Matrix" + "\n" + 
+						"2 - Duna" + "\n" +
+						"3 - Muppets" + "\n" +
+						"4 - Transformes" + "\n" +
+						"5 - Madagascar");
+
+						v = [];
+						v1 = 0;
+						v2 = 0;
+						v3 = 0;
+						v4 = 0;
+						v5 = 0;
+
+
+						var i = 0;
+
+						while (i < 10) {
+							i++
+							voto = Number(prompt("Vote em um dos Filmes:"));
+							while (voto < 1 || voto > 5) { 
+								voto = Number(prompt("Voto invalido, digite uma das opções."));
+							}
+						v[i] = voto
+						}
+
+						for(var c = 0 ; c < 11 ; c++) {
+
+						if (v[c] == 1) {
+							v1++
+						}
+						if (v[c] == 2) {
+							v2++
+						}
+						if (v[c] == 3) {
+							v3++
+						}
+						if (v[c] == 4) {
+							v4++
+						}
+						if (v[c] == 5) {
+							v5++
+						}
+						}
+
+						document.write("Placar de Votos" + "<br>") 
+						document.write("1 - Matrix: " + v1 + " votos" + "<br>") 
+						document.write("2 - Duna: " + v2 + " votos" + "<br>") 
+						document.write("3 - Muppets: " + v3 + " votos" + "<br>") 
+						document.write("4 - Transformes: " + v4 + " votos" + "<br>") 
+						document.write("5 - Madagascar: " + v5 + " votos")
+						
+
+
+		</script>
+	</body>
+</html>

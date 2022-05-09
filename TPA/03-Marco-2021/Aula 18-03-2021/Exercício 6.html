@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+	<head>
+			<title>Salário</title>
+			<meta charset="utf-8">
+	</head>
+	<body>
+			<script>
+
+				p1 = Number(prompt("Qual o valor do primeiro produto ?"));
+				p2 = Number(prompt("E o segundo ?"));
+				porcentagem = Number(prompt("Quantos porcentos ?"));
+
+				CalA = parseFloat(p1 + p2);
+				CalB = parseFloat(CalA * porcentagem);
+				CalC = parseFloat(CalB / 100);
+				VL = parseFloat(CalA + CalC);
+
+				document.write("<p><h1> Crie um programa que calcule o valor de um compra com uma comissão</h1></p>"); 
+                
+            	document.write("<p><h3>Para criar um programa desse é necessario cria 3 variáveis prompt, uma pega a nota do produto 1, a outra do produto 2 e outra da porcentagem, crie uma outra variável que execute a conta do produto 1 somado pelo produto 2(conta A), logo depois em outra variável pegue a conta A e multiplique pela porcentagem(conta B), pegue mais uma variável que execute a conta do produto b dividido por 100(conta C) e por final em pegue uma variavel e execute a conta conta A subtraido pela conta C.</h3></p>");
+                
+            	document.write("<h3>p1 = Number(prompt(Qual o valor do primeiro produto ?));</h3>");
+            	document.write("<h3>p2 = Number(prompt(E o segundo ?));</h3>");
+           		document.write("<h3>porcentagem = Number(prompt(Quantos porcento você recebeu ?));</h3><br><br>");
+
+            	document.write("<h3>CalA = parseFloat(p1 + p2);</h3>");
+            	document.write("<h3>CalB = parseFloat(CalA * porcentagem);</h3>");
+            	document.write("<h3>CalC = parseFloat(CalB / 100);</h3>");
+            	document.write("<h3>VL = parseFloat(CalA - CalC);</h3><br>");
+
+				document.write("<h2>Você pagou um total de " + VL + "R$ " + "com uma comissão de " + CalC + "R$" + "</h2>");
+
+			</script>
+	</body>
+</html>

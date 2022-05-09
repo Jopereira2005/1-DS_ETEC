@@ -1,0 +1,44 @@
+
+<!DOCTYPE html>
+        <html lang="pt-br">
+            <head>
+                <meta charset="utf-8">
+                <title>Exercício 2</title>
+            </head>
+            <body>
+
+                <script>
+                    var op = prompt("Escolha uma opção");
+
+                    document.write("Iniciar jogo" + "<br>");
+                    document.write("Configuração" + "<br>");
+                    document.write("Atualizar" + "<br>");
+                    document.write("Carregar jogo" + "<br>");
+                    document.write("Créditos" + "<br>");
+                    document.write("Sair" + "<br>");
+
+
+            while (op < 6) {
+            op = prompt("Escolha uma opção"); 
+            switch (op) {
+            case '1': alert("Jogo iniciado");
+            break;
+            case '2': alert("Configuração");
+            break;
+            case '3': alert("Atualizando");
+            break;
+            case '4': alert("Carregando o jogo");
+            break;
+            case '5': alert("Créditos");
+            break;
+            case '6': alert("Saindo");
+            break;
+            default: alert("Escolha umas das opções");
+            break;
+            }
+            }
+                    
+        
+                </script>
+            </body>
+        </html>

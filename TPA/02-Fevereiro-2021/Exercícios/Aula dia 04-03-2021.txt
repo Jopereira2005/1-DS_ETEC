@@ -1,0 +1,37 @@
+Exercício 1 
+
+Imagine três jarros, A, B e C. O jarro A tem capacidade para 3 litros, o jarro B, 5 litros e o jarro C, 8 litros.
+Imagine ainda uma fonte com água infinita.
+Sabendo que os jarros não tem escala, coloque 7 litros no jarro C.
+
+Regras: Você pode encher um jarro. Passar o conteúdo de um jarro para outro. Esvaziar um jarro
+
+
+(Jarro A)  (Jarro B)  (Jarro C)
+    0          0          8
+(Jarro A)  (Jarro B)  (Jarro C)
+    3          0          5
+(Jarro A)  (Jarro B)  (Jarro C)
+    0          5          5
+(Jarro A)  (Jarro B)  (Jarro C)    
+    3          2          5
+(Jarro A)  (Jarro B)  (Jarro C) 
+    3          0          7
+
+
+Exercício 2
+Imagine três jarros, A, B e C. O jarro A tem capacidade para 3 litros, o jarro B, 4 litros e o jarro C, 8 litros.
+Imagine ainda uma fonte com água infinita.
+Sabendo que os jarros não tem escala, coloque 5 litros no jarro C.
+
+Regras: Você pode encher um jarro. Passar o conteúdo de um jarro para outro. Esvaziar um jarro.
+
+Max:3L     Max:4L     Max:8L
+(Jarro A)  (Jarro B)  (Jarro C) 
+    0          0          8
+(Jarro A)  (Jarro B)  (Jarro C)
+    0          4          4
+(Jarro A)  (Jarro B)  (Jarro C)
+    3          1          4
+(Jarro A)  (Jarro B)  (Jarro C)
+    3          0          5

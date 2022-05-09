@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<title>Exercício 1</title>
+		<meta charset="utf-8">
+	</head>
+	<body>
+		<h3>
+			1. Receba o valor de A<br>
+			2. Receba o valor de B<br>
+			3. Receba o valor de C<br>
+			4. Calcule o valor de delta<br>
+			5. Agora com o valor de delta calcule as raízes<br>
+			7. Exiba o resultado na tela<br>
+
+		</h3>		
+		<script>
+
+			A = Number(prompt("Qual o valor de A ?"));
+			B = Number(prompt("Qual o valor de B ?"));
+            C = Number(prompt("Qual o valor de C ?"));
+
+			qB = B * B
+			delta = qB - 4 * (A * C)
+
+
+
+
+			Vb = B * (-1) //tive que pesquisar como inverter o valor de b
+			Rdelta = Math.sqrt(delta);
+			divA = 2 * A;
+			X1 = (Vb + Rdelta) / divA;
+			X2 = (Vb - Rdelta) / divA;
+
+			document.write("<h3>As raízes reais dos valores dados são: " + X1 + " e " + X2 + "<br><h3>")
+			document.write("<h3>A: " + A + "<br>" + "B: " + B + "<br>" + "C: " + C + "<br>" + "Delta: " + delta + " Se delta for negativo não existe Raiz, e se for 0 as raízes são iguais" + "<br>" + "X1: " + X1 + "<br>" + "X2: " + X2 + "<br><h3>")
+
+                
+
+			
+		</script>
+	</body>
+</html>

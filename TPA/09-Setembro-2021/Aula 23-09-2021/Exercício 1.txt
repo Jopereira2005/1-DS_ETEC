@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<meta charset="utf-8">
+		<title>Exercício 1</title>
+	</head>
+	<body>		
+		<script>
+
+            var s = 10
+            var m = Number(prompt("Digite a massa do objeto"));
+            var i = 0
+
+            document.write("<h1>Iniciou com: " + m + "</h1>");
+
+            while (m > 0.5) {
+            i++
+            
+
+            m = m / 2;
+            s = s + 10;
+
+
+            document.write("<h2>(" + i + ")Progressão:</h2>" + "<h3>Tempo:</h3> " + s + "<br>" + "<h3>Massa:</h3>"+ m);
+
+            }
+
+		</script>
+	</body>
+</html>
