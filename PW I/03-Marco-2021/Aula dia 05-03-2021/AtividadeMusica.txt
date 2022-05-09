@@ -1,0 +1,74 @@
+<!DOCTYPE html><!--Utilize pra específicar o html-->
+<html>
+<head>
+	<title>Dias de Luta, Dias de Glória</title>
+</head>
+<body>
+<p><b>Canto minha vida com orgulho</b></p><!--Utilizei a tag p para o parágrafro, b para deixar em negrito e br pra fazer uma quebra de linha-->
+<hr>
+<p><b>Na minha vida nem tudo acontece</b>
+	<br>Mas quanto mais a gente rala, mais a gente cresce
+	<br>Hoje estou feliz porque eu sonhei com você
+	<br>E amanhã posso chorar por não poder te ver mais</p><!--Tag br é usada pra fazer uma quebra de linha simples-->
+<hr><!--Utilize essa tag pra fazer uma linha-->
+<p><b>O seu sorriso vale mais que um diamante</b>
+	<br>Se você vier comigo, aí nóis vamo adiante
+	<br>Com a cabeça erguida e mantendo a fé em Deus
+	<br>O seu dia mais feliz vai ser o mesmo que o meu</p>
+<hr>
+<p><b>A vida me ensinou a nunca desistir</b>
+	<br>Nem ganhar, nem perder, mas procurar evoluir
+	<br>Podem me tirar tudo que tenho
+	<br>Só não podem me tirar as coisas boas
+	<br>Que eu já fiz pra quem eu amo
+	<br>E eu sou feliz e canto
+	<br>O universo é uma canção
+	<br>E eu vou que vou</p>
+<hr>
+<p><b>História, nossas histórias</b>
+	<br>Dias de luta, dias de glória
+	<br>Histórias, nossas histórias
+	<br>Dias de luta, dias de glória</p>
+<hr>
+<p><b>Histórias, nossas histórias</b>
+	<br>Dias de luta, dias de glória
+	<br>História, nossas histórias
+	<br>Dias de luta, dias de glória</p>
+<hr>
+<p><b>Oh, minha gata, morada dos meus sonhos</b>
+	<br>Todo dia, se eu pudesse, eu ia estar com você
+	<br>Eu já te via muito antes nos meus sonhos
+	<br>Eu procurei a vida inteira por alguém como você</p>
+<hr>
+<p><b>Por isso eu canto minha vida com orgulho</b>
+	<br>Com melodia, alegria e barulho
+	<br>Eu sou feliz e rodo pelo mundo
+	<br>Sou correria, mas também sou vagabundo</p>
+<hr>
+<p><b>Mas hoje dou valor de verdade</b>
+	<br>Pra minha saúde e pra minha liberdade
+	<br>Que bom te encontrar nessa cidade
+	<br>Esse brilho intenso me lembra você</p>
+<hr>
+<p><b>História, nossas histórias</b>
+	<br>Dias de luta, dias de glória
+	<br>Histórias, nossas histórias
+	<br>Dias de luta, dias de glória</p>
+<hr>
+<p><b>Histórias, nossas histórias</b>
+	<br>Dias de luta, dias de glória
+	<br>História, nossas histórias
+	<br>Dias de luta, dias de glória</p>
+<hr>
+<p><b>Hoje estou feliz</b>
+<br>Acordei com o pé direito
+	<br>E eu vou fazer de novo
+	<br>E vou fazer muito bem feito</p>
+<hr>
+<p><b>Sintonia</b>
+	<br>Telepatia
+	<br>Comunicação pelo córtex
+	<br>Boom
+	<br>Bye, bye</p>
+</body>
+</html>

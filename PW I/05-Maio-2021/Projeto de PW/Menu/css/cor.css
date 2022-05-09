@@ -1,0 +1,22 @@
+#content{
+background: #eead72;
+padding-top: 15px;
+padding-left: 630px;
+padding-right: 630px;
+padding-bottom: 50px;
+}
+
+#content h1{
+color:#ff3600;
+font-family:arial;
+font-size: 50px
+}
+
+#content bla{
+color:purple;
+font-family:arial;
+}
+
+#content a{
+font-size: 20px
+}

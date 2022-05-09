@@ -1,0 +1,18 @@
+#content{
+background: whitesmoke;
+padding-top: 15px;
+padding-left: 630px;
+padding-right: 630px;
+padding-bottom: 50px;
+}
+
+#content h1{
+background: #E1EDF2;
+color:#3D3D3D;
+font-family:arial;
+}
+
+#content bla{
+color:purple;
+font-family:arial;
+}

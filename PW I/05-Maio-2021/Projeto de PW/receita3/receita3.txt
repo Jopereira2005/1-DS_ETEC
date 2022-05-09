@@ -1,0 +1,56 @@
+
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<title>Sorvete de Gelatina</title>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" type="text/css" href="css/cor.css">
+	</head>
+	
+	<body>
+	<div id="content">
+		<div style="text-align: center"><b><h1>Receita de Sorvete de Gelatina</h1></b></div>
+		<div style="text-align: center"><bla><h3>Ingredientes:</h3></bla></div>
+		<ul>
+			<li>1 pacote de gelatina (sabor de sua preferência).</li>
+			<li>1 lata de leite condensado.</li>
+			<li>1 lata de creme de leite (sem soro).</li>
+			<li>250 ml de água fervente.</li>
+			<li>250 ml de água gelada.</li>
+		</ul>
+		<div style="text-align: center"><bla><h3>Modo de Preparo:</h3></bla></div>
+		<ol>
+			<li>Em uma tigela, coloque a água fervente e dissolva a gelatina.</li>
+			<li>Adicione 200 ml de água gelada e misture.</li>
+			<li>Transfira para o liquidificador e adcione o leite condensado e o creme de leite e bata por uns 4 minutos.</li>
+			<li>Leve ao freezer por 3 horas.</li>
+			<li>Retire do freezer e bata na batedeira por 10 minutos.</li>
+			<li>Transfira a um recipiente e retorne ao freezer por 4 horas.</li>
+		</ol><br>
+	
+
+<div style="text-align: center;"><img src="imagem/sorvete.jpg" alt="doce" wigth= 350 height="350"></div>
+
+			<nav>
+				<div style="text-align: center"><bla><h3>Para mais receitas</h3></bla></div>
+				<ul>
+					<li><a href="../menu/index.html">Home</a></li>
+					<li><a href="../receita1/receita1.html">Bolo de Cenoura:</a></li>
+					<li><a href="../receita2/receita2.html">Torta de Frango:</a></li>
+					<li><a href="receita3.html">Sorvete de Gelatina:</a></li>
+					<li><a href="../receita4/receita4.html">Bolinho de queijo:</a></li>
+					<li><a href="../receita5/receita5.html">Pudim:</a></li>
+				</ul>
+				<div style="text-align: center"><bla><h3>Meus contatos</h3></bla></div>
+				<ul>
+					<li><a href="mailto:joao.vieira150@etec.sp.gov.br">Email</a></li>
+					<li><a href="tel:+996532805">WhatsApp</a></li>
+				</ul>
+			</nav>
+			
+
+	</div>
+	</body>
+</html>
+

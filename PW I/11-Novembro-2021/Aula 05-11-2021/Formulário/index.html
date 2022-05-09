@@ -1,0 +1,114 @@
+
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<title>Exemplo</title>
+		<meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+	</head> 
+    <body>
+        <div id="area">
+            <form id="formulario" autocomplete="off">
+                
+                    <legend>Cadastro ETEC Sales Gomes</legend>
+                    
+                    <p>
+                    <label>Nome:</label>
+                        <input type="text" name="nome" id="nome">
+                    </p>
+                    <p>
+                    <label>Email:</label>
+                        <input type="email" name="email" id="email"><br> <!-- Type="email" só aceita email-->
+                    </p>
+
+                    <p>
+                        <label>Sexo:</label> <!-- Type="radio" cria as bolinha para assinalar -->
+                        <label>
+                            <input type="radio" name="Sexo" value="Masculino">Masculino
+                        </label>
+
+                        <label>
+                            <input type="radio" name="Sexo" value="Feminino">Feminino
+                        </label>
+
+                        <label>
+                            <input type=
+                            "radio" name="Sexo" value="Não Binario">Não Binario
+                        </label>
+                    </p>
+
+                    <p>
+                    <label>Raça:</label>
+                    <select id="Raça"> <!-- Select, é usado para criar varias oções em uma janela-->
+                            <option selected disabled value="">Selecione</option>
+                            <option>Branca</option>
+                            <option>Preta</option>
+                            <option>Pardo</option>
+                            <option>Amarela</option>
+                            <option>Indígena</option>
+                    </select>
+                    </p>
+
+                    <p>
+                    <label>Data de Nascimento
+                    <input type="date" nome="Data de Nascimento"> <!-- type="date" cria um janela para vc colocar uma data-->
+                    </p>
+
+                    <p>
+                    <label>Telefone
+                    <input type="tel"> <!-- type="tel" usado para armazenar número de telefone, só aceita isso.-->
+                    </p>
+
+                    <p>
+                        <label>Período
+                            <input type="radio" name="Período" value="Manhã">Manhã
+                        <label>
+                        <input type="radio" name="Período" value="Tarde">Tarde
+                            <label>
+                        <input type="radio" name="Período" value="Noite">Noite
+                    </p>
+                    <br>
+                    <p>
+                    <label>Primeira Opção de Curso:</label>
+                    <select id="Curso 1">
+                            <option selected disabled value="">Selecione</option>
+                            <option>Química</option>
+                            <option>Mecânica</option>
+                            <option>DS</option>
+                            <option>Administração</option>
+                    </select>
+                    <br>
+                    <label>Segunda Opção de Curso:</label>
+                    <select id="Curso 2">
+                        <option selected disabled value="">Selecione</option>
+                        <option>Química</option>
+                        <option>Mecânica</option>
+                        <option>DS</option>
+                        <option>Administração</option>
+                    </select>
+                    </p>
+
+                    <p>
+                    <label>Nome do Responsavel:</label>
+                    <input type="text" name="nome" id="nome">
+                    </p>
+
+                    <p>
+                    <label for=Comentario>Comentario Extra:</label>
+                    <textarea name="Comentario" cols="50" rows="10"></textarea>
+                    </p>
+                    
+
+                </fieldset>
+            </form>
+        </div>
+    </body>
+</html>
+
+
+
+
+
+
+

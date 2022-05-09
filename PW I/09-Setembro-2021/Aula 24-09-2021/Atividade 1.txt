@@ -1,0 +1,90 @@
+1)Mesmo estando dentro da id que tem prioridade, não ficou rosa pois a class está mais perto, a frase está dentro dele que já estava com uma cor por isso n foi herdadeo o rosa.
+
+2)  
+Pseudo-classes:Uma pseudo-classe CSS é uma palavra-chave adicionada a seletores que especifica um estado especial do elemento selecionado. Por exemplo, :hover pode ser usado para alterar a cor de um botão quando o usuário passar o cursor sobre ele.
+Exemplo:
+    button:hover {
+    color: blue;
+    }
+
+Pseudo-elementos: Um pseudo-elemento CSS é uma palavra-chave adicionada a um seletor que permite que você estilize uma parte específica do elemento selecionado. Por exemplo, o pseudo-elemento ::first-line aplica o estilo apenas na primeira linha de um parágrafo.
+
+    Exemplo:
+
+    /* A primeira linha de todo elemento <p>. */
+    p::first-line {
+    color: blue;
+    text-transform: uppercase;
+}
+
+    Sintaxe 
+    seletor::pseudo-elemento {
+    propriedade: valor;
+    }
+
+Você pode utilizar apenas um pseudo-elemento em um seletor. Ele deve aparecer depois da declaração de um elemento simples.
+
+Observação: Como regra, os dois pontos devem ser usados duas vezes  (::)  ao invés de uma única vez  (:). Isso distingue pseudo-classes de pseudo-elementos.
+pseudo-classes:
+
+:active
+:checked
+:default (en-US)
+:dir() (en-US)
+:disabled
+:empty
+:enabled
+:first (en-US)
+:first-child
+:first-of-type
+:fullscreen
+:focus
+:hover
+:indeterminate (en-US)
+:in-range (en-US)
+:invalid
+:lang() (en-US)
+:last-child
+:last-of-type
+:left (en-US)
+:link
+:not()
+:nth-child()
+:nth-last-child()
+:nth-last-of-type() (en-US)
+:nth-of-type()
+:only-child
+:only-of-type
+:optional
+:out-of-range
+:read-only (en-US)
+:read-write
+:required
+:right (en-US)
+:root
+:scope (en-US)
+:target
+:valid
+:visited
+
+::after
+::before
+::cue (en-US)
+::first-letter
+::first-line
+::selection
+::slotted (en-US)
+::backdrop 
+::placeholder (en-US) 
+::marker (en-US) 
+::spelling-error (en-US) 
+::grammar-error (en-US)
+
+ Apesar disso, devido a essa distinção não estar presente em versões mais antigas da especificação da W3C, a maioria dos navegadores suportam ambas as sintaxes para os pseudo-elementos originais.
+
+
+O efeito cascata: O uso das folhas de estilo para controlar o "visual" de um documento HTML, não raro resulta em regras CSS distintas, aplicáveis a um mesmo elemento no documento. Ou seja, fica estabelecido um conflito entre regras. Qual delas, regra, prevalece? Ah , isso você já sabe, entra aqui o conhecido "Efeito Cascata".
+
+
+
+A especificidade: A especificidade da regra CSS as vezes nos reserva "surpresas". Você deve conhecer como funciona a especificidade para evitar as surpresas.

@@ -1,0 +1,39 @@
+CSS
+Cascading:
+  O anterior é sobre escrito pelo prximo
+
+Especificidade:
+
+  Quando temos um código in line ele possiu a mais força, sempre var sobre escrever o resto.
+
+    Ex: <h1 style="font-family: Arial;>In line</h1>"
+
+  Ordem de Especificidade:
+    Inline CSS < ID selector < Classe < Elemento
+
+      Ex:
+
+      a.button { <-- Mesmo estando em ultimo na cascata ele fica em primeira.
+        background-color: hsl(20 36% 57%);
+      }
+      .button {
+      background-color: hsl(159 36% 57%)
+      }
+
+Unidades de medida e Responsivo
+
+  Relative Units %(porcêntagem)
+
+  Static Units px(pixel)
+
+
+Outros:
+
+  Tags fechadas nele mesmo não tem conteudo, apenas atributos.
+    Ex:
+    <link rel="stylesheet" href="style.css">
+
+Box model:
+    Define o conteu, altura, largura, expassamento e etc
+
+rem: rem condiz com os pixel da página

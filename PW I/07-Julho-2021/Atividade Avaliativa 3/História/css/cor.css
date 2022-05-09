@@ -1,0 +1,44 @@
+    cor.titulo {
+    color:#6254df;
+    font-family:arial;
+    font-size: 100px
+    
+    }
+    
+    nav.cor{
+    background-color: coral;
+    }
+    
+    #content{
+    background: #bcfffc;
+    padding-top: 25px;
+    padding-left: 550px;
+    padding-right: 550px;
+    padding-bottom: 50px;
+    }
+    
+    #content h1{
+    color:#1600d8;
+    font-family:arial;
+    font-size: 50px
+    }
+    
+    #content bla{
+    color:rgb(153, 0, 255);
+    font-family:arial;
+    }
+    
+    #content a{
+    font-size: 20px
+    }
+
+    #content p{
+    font-family: arial;
+    }
+
+    #content b{
+    background: #00fff2
+    ;
+    }
+
+     

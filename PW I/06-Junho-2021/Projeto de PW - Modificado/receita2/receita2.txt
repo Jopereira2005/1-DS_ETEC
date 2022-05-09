@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<title>Torta de Frango</title>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" type="text/css" href="css/cor.css">
+	</head>
+	
+	<body>
+	<div id="content">
+		<div style="text-align: center"><b><h1>Receita de Torta de Frango</h1></b></div>
+		<div style="text-align: center"><bla><h3>Ingredientes:</h3></bla></div>
+		<ul>
+			<h3>Recheio</h3>
+			<li>500 g de peito de frango sem pele.</li>
+			<li>1/2 litro de caldo de galinha.</li>
+			<li>4 colheres (sopa) de óleo.</li>
+			<li>1 dente de alho amassado.</li>
+			<li>1 cebola picada.</li>
+			<li>3 tomates sem pele e sem sementes.</li>
+			<li>1 xícara (chá) de ervilhas</li>
+			<li>sal e pimenta-do-reino a gosto</li>
+		</ul>
+		<ul>
+			<h3>Massa</h3>
+			<li>250 ml de leite.</li>
+			<li>3/4 de xícara (chá) de óleo.</li>
+			<li>2 ovos.</li>
+			<li>1 e 1/2 xícara (chá) de farinha de trigo.</li>
+			<li>sal a gosto.</li>
+			<li>1 colher (sopa) de fermento em pó.</li>
+			<li>queijo ralado a gosto.</li>
+		</ul>
+		<div style="text-align: center"><bla><h3>Modo de Preparo:</h3></bla></div>
+		<ol>
+			<h3>Recheio</h3>
+			<li>Cozinhe o peito de frango no caldo até ficar macio.</li>
+			<li>Separe 1 xícara (chá) de caldo do cozimento e reserve.</li>
+			<li>Refogue os demais ingredientes e acrescente as ervilhas por último.</li>
+			<li>Desfie o frango, misture ao caldo e deixe cozinhar até secar.</li>
+		</ol>
+		<ol>
+			<h3>Massa</h3>
+			<li>Bata o leite, o óleo e os ovos no liquidificador em velocidade baixa.</li>
+			<li>Acrescente aos poucos a farinha, o sal e o fermento.</li>
+			<li>Despeje metade da massa em uma forma untada e adicione o recheio sobre ela.</li>
+			<li>Cubra com o restante de massa e o queijo ralado.</li>
+			<li>Leve ao forno preaquecido (180° C) até dourar.</li>
+		</ol><br>
+	
+
+<div style="text-align: center;"><img src="imagem/Torta.jpg" alt="salgado" wigth= 350 height="350"></div>
+
+			<nav>
+				<div style="text-align: center"><bla><h3>Para mais receitas</h3></bla></div>
+				<ul>
+					<li><a href="../menu/index.html">Home</a></li>
+					<li><a href="../receita1/receita1.html">Bolo de Cenoura:</a></li>
+					<li><a href="receita2.html">Torta de Frango:</a></li>
+					<li><a href="../receita3/receita3.html">Sorvete de Gelatina:</a></li>
+					<li><a href="../receita4/receita4.html">Bolinho de queijo:</a></li>
+					<li><a href="../receita5/receita5.html">Pudim:</a></li>
+				</ul>
+				<div style="text-align: center"><bla><h3>Meus contatos</h3></bla></div>
+				<ul>
+					<li><a href="mailto:joao.vieira150@etec.sp.gov.br">Email</a></li>
+					<li><a href="tel:+996532805">WhatsApp</a></li>
+				</ul>
+			</nav>
+			
+
+	</div>
+	</body>
+</html>
+

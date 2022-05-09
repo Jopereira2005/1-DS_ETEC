@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<title>Bolinho de queijo</title>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" type="text/css" href="css/cor.css">
+	</head>
+	
+	<body>
+	<div id="content">
+		<div style="text-align: center"><b><h1>Receita de Bolinho de queijo</h1></b></div>
+		<div style="text-align: center"><bla><h3>Ingredientes:</h3></bla></div>
+		<ul>
+			<li>1 xícara (chá) de leite.</li>
+			<li>1 xícara (chá) de farinha de trigo.</li>
+			<li>1 colher (sopa) de margarina.</li>
+			<li>1 gema.</li>
+			<li>1 pitada de sal.</li>
+			<li>queijo branco ou mussarela a gosto.</li>
+			<li>óleo para fritar</li>
+		</ul>
+		<div style="text-align: center"><bla><h3>Modo de Preparo:</h3></bla></div>
+		<ol>
+			
+			<li>Em uma panela, adicione o leite, a farinha de trigo, a margarina, a gema e o sal.</li>
+			<li>Leve ao fogo e mexa com um garfo até que a massa solte da panela, depois deixe esfriar.</li>
+			<li>Modele a massa em bolinhas e recheie com o queijo, depois passe o bolinho na gema de ovo e na farinha de rosca.</li>
+			<li>Em uma panela, adicione o óleo, depois de quente adicione as bolinhas e frite-as.</li>
+		</ol><br>
+	
+
+<div style="text-align: center;"><img src="imagem/bolinho.jpg" alt="salgado" wigth= 350 height="350"></div>
+
+			<nav>
+				<div style="text-align: center"><bla><h3>Para mais receitas</h3></bla></div>
+				<ul>
+					<li><a href="../menu/index.html">Home</a></li>
+					<li><a href="../receita1/receita1.html">Bolo de Cenoura:</a></li>
+					<li><a href="../receita2/receita2.html">Torta de Frango:</a></li>
+					<li><a href="../receita3/receita3.html">Sorvete de Gelatina:</a></li>
+					<li><a href="receita4.html">Bolinho de queijo:</a></li>
+					<li><a href="../receita5/receita5.html">Pudim:</a></li>
+				</ul>
+				<div style="text-align: center"><bla><h3>Meus contatos</h3></bla></div>
+				<ul>
+					<li><a href="mailto:joao.vieira150@etec.sp.gov.br">Email</a></li>
+					<li><a href="tel:+996532805">WhatsApp</a></li>
+				</ul>
+			</nav>
+			
+
+	</div>
+	</body>
+</html>
+

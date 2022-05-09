@@ -1,0 +1,117 @@
+Formulario html e css
+	No html é possivel criar um formulário e editalo com o css, ele server pra pessoa que ver o seu site dar um feedback e etc.
+	Estrutura basica(sem estilização).
+	Exemplo:
+
+		<body>
+  		<div id="area">
+   			<form id="formulario" autocomplete="off">
+     				<fieldset>
+        				<legend>Formulário</legend>
+        				<label>Nome:</label><input class="campo_nome" type="text"><br>
+        				<label>Email:</label><input class="campo_email" type="password"><br>
+        				<label>Mensagem:</label><br><textarea class="msg" cols="35" rows="8"></textarea><br>
+        				<input class="btn_submit" type="submit" value="Enviar">
+     				</fieldset>
+    			</form>
+  		</div>
+	</body>
+
+	CSS:
+
+		#area
+		{
+ 		position:relative;
+ 		left:37%;
+ 		top:10em;
+ 		width:320px;
+ 		height:270px;
+		}
+		#area #formulario
+		{
+  		position:absolute;
+  		display:block;
+		}
+
+
+		fieldset 
+		{
+ 		background-color:#A7C0DC;
+  		width:300px;
+  		height:250px;
+		}
+
+		legend
+		{
+  		font-weight:bold;
+  		font-family: "Segoe UI","Arial","Times New Roman";
+		}
+
+		#formulario label
+		{
+  		position:absolute;
+ 		 left:19px;
+ 		 margin-right:5px;
+		}
+
+		#formulario input.campo_nome
+		{
+  		background-color:#f1ff00;
+  		position:absolute;
+  		left:95px;
+  		top:23px;
+  		width:225px;
+		}
+
+		#formulario input.campo_email
+		{
+ 		background-color:#f1ff00;
+ 		position:absolute;
+ 		left:95px;
+ 		margin-top:2px;
+ 		width:225px;
+		}
+
+		#formulario textarea.msg
+		{
+ 		position:absolute;
+ 		background-color:#f1ff00;
+		}
+
+
+		#formulario input.btn_submit
+		{
+  		border-style:dashed;
+  		position:absolute;
+  		bottom: 0.5em;
+  		right:10px;
+  		background-color:#f1ff00;
+		}
+
+Significados na parte do css:
+
+	fieldset: Aqui vc define o tamanho com o width, height, é se vc quiser tem como colocar cor
+	legend: Aqui você altera a fonte
+	input: Define cores de fundo e posicionamento
+	textarea: Define a cor na parte do texto e etc
+
+Parte teorica:
+
+	O elemento <form>:
+		O elemento <form> é o elemento que define o formulário,  para iniciar sempre começe com esse elemento, e o resto do conteudo você coloca dentro dele, diversos navegadores são capazes de descobrir e criar ganchos para tornar o uso mais facil.
+	
+	Metododos
+	Para usar os metodos você tem que usar um do atributos.
+	action: O atributo action define o local (uma URL) em que os dados recolhidos do formulário devem ser enviados
+	method: define qual o método HTTP para enviar os dados (ele pode ser "GET" ou "POST")
+
+	O método GET cria uma seqüência de consulta(query string) e a acrescenta à URL do script no servidor que manipula a solicitação.
+	O método POST cria um par nome/valor que são passados no corpo da mensagem de pedido HTTP.
+	 
+	
+
+
+
+
+	
+	

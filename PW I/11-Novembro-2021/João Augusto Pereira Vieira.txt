@@ -1,0 +1,29 @@
+Bootstrap
+
+1. O que é ?
+R= O Bootstrap é um framework que surfiu em 2010, ele utiliza JavaScript e CSS para estilzar e adicionar funcionalidades que vão além de apenas proporcionar um visual bonito ao site, como exemplo manus e controle de paginação, sendo sua maior característica a responsabilidade.
+
+2. Por que utilizar ?
+R= O Bootstrap ele oferece muito mais utilidade que o simples estilização de elementos, e além de ser mais simples.
+
+3. Como utilizar ?
+R= O Bootstrap é formado por uma série de arquivos CSS e JavaScript.Há um arquivo principal no framework, chamado bootstrap.css, que contém a definição para todos os estilos utilizados. Basicamente, a estrutura do framework é formada por dois diretórios
+
+css: que contém os arquivos necessários para a estilização dos elementos e uma alternativa ao tema original;
+
+js: contém as versões do arquivo bootstrap.js (original e minificado), que é responsável por executar as aplicações de estilo que necessitam de manipulação interativa
+
+Para atribuir uma característica a um elemento, basta informar a classe correspondente na propriedade class do elemento a ser estilizado. Veja o exemplo:
+
+<img src="nome-da-image.jpg" alt="texto alternativo" class="rounded-sm">
+
+4. Site responsivo.
+
+* Qual meta tag ?
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+* O que significa cada parte da meta ?
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+name="viewport" = Faz o site ocupar todo espaço
+content="width=device-width, initial-scale=1.0" = Determina um tamanho padrão inicial

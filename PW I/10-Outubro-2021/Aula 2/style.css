@@ -1,0 +1,97 @@
+/* Cascating Stylesheet*/
+* {
+  margin: 0;
+}
+
+html,
+body {
+  --grey: hsl(240, 9%, 89%); /*Seta um variavel de cor*/
+  --black: hls(240, 6%, 13%);
+
+  height: 100%;
+  font-family: 'Roboto', sans-serif; /*Se ele não achar roboto ele acha a sans*/
+  -webkit-font-smoothing: antialiased;
+}
+
+body {
+  display: grid; /*Trabalho de layout*/
+  place-items: center;
+}
+
+main {
+  background: url(images/Background.svg);
+  width: 375px;
+  height: 812px;
+}
+
+.content {
+  max-width: 250px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+
+  color: var(--grey);
+}
+
+.avatar {
+  width: 10rem;
+  margin: 11.5rem auto 0;
+
+  position: relative;
+}
+
+.avatar span {
+  /*Procura o span dentro do avatar*/
+  position: absolute; /*Sobrepõem a imagem das outras*/
+  top: -15px;
+  z-index: 1;
+}
+
+.avatar > img {
+  /*> = pega o primeiro nível*/
+  width: 10rem;
+  height: 11.5rem;
+  object-fit: cover;
+
+  clip-path: polygon(
+    50% 0,
+    100% 25%,
+    100% 75%,
+    50% 100%,
+    0 75%,
+    0 25%
+  ); /*Poligono feito no clip path do google*/
+}
+
+h1 {
+  font-size: 1.5rem;
+  margin-top: 1.5rem;
+}
+
+a {
+  color: var(--grey);
+  text-decoration: none;
+
+  margin-top: 0.25rem;
+
+  display: flex;
+  gap: 0.75rem;
+
+  justify-content: center;
+  align-items: center;
+}
+
+p {
+  margin-top: 2rem;
+}
+
+ul {
+  margin-top: 4rem;
+  list-style: none;
+  padding: 0;
+
+  display: flex; /*Faz com que o elemento fico do lado do outro e tira suas propriedade de texto*/
+  gap: 0.5rem;
+
+  justify-content: center; /*Não da pra usar text-aling*/
+}

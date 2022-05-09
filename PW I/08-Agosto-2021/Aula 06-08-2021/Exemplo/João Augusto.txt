@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<title>Exemplo</title>
+		<meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <style>
+        #cor{
+			background:#fda06a;
+			padding-top:30pt;
+			padding-bottom:50pt;
+			text-align: center;
+			margin-top:40px;
+			margin-left: 85px;
+            margin-right: 85px;
+        }
+
+        h1 {
+            font-family: Arial;
+            color:rgb(121, 45, 39);
+            text-shadow:2px 2px 2px #363b3b;
+            font-size: 100px;
+
+
+        }
+
+        bla {
+
+            font-family: Arial;
+            font-size: 30px;
+            color:black;
+
+        }
+        body{
+            background-color: blanchedalmond;
+            font-family: Calibri;
+            font-size: 20px;
+            
+
+        }
+        </style>
+	</head>
+    <body>
+        <div id="cor">
+        <h1> Exemplo </h1>   
+            
+        <bla>
+
+        Este site é um exemplo sobre pai e filho, tendo vários momentos para serem identificados, como exemplo do bla que não é filho, pois não está pegando a caracteristicas do #cor.<br>
+
+        </bla>
+        <bla>
+        Aqui eu quero que pegue as caracteristicas do body, como exemplo o a fonte diferenciada
+        </bla>       
+        </div>
+	</body>
+</html>

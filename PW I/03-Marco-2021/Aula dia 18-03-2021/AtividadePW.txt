@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Exemplo de html simples</title>
+</head>
+<body>
+	<H1>Este é o primeiro nível de cabeçalho</H1>
+	<H2>Este é o segundo nível de cabeçalho</H2>
+	<H3>Este é o terceiro nível de cabeçalho</H3>
+	<H4>Este é o quarto nível de cabeçalho</H4>
+	<H5>Este é o quinto nível de cabeçalho</H5>
+	<H6>Este é o sexto nível de cabeçalho</H6>
+	<p>ETEC Sales Gomes – Programação Web I</p>
+	<p>João Augusto Pereira Vieira</p>
+
+	<script>
+
+		var a="olá professora";
+		var b="ta ai o trabalho";
+
+		alert(a + "  -  " + b);
+		
+	</script>
+</body>
+</html>
